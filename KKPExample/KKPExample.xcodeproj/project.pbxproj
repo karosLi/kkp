@@ -17,6 +17,8 @@
 		7CD3DC4A27D76ED900E48D71 /* KKPExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD3DC4927D76ED900E48D71 /* KKPExampleTests.m */; };
 		7CD3DC5427D76ED900E48D71 /* KKPExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD3DC5327D76ED900E48D71 /* KKPExampleUITests.m */; };
 		7CD3DC5627D76ED900E48D71 /* KKPExampleUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD3DC5527D76ED900E48D71 /* KKPExampleUITestsLaunchTests.m */; };
+		7CD3DD7F27D7711D00E48D71 /* ViewController.lua in Resources */ = {isa = PBXBuildFile; fileRef = 7CD3DD7E27D7711D00E48D71 /* ViewController.lua */; };
+		DF947D8DF23893C2A59549E4 /* libPods-KKPExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B4D17522F507C060C467225B /* libPods-KKPExample.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00120598E334B40FCB116C7F /* Pods-KKPExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKPExample.release.xcconfig"; path = "Target Support Files/Pods-KKPExample/Pods-KKPExample.release.xcconfig"; sourceTree = "<group>"; };
 		7CD3DC2A27D76ED800E48D71 /* KKPExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KKPExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CD3DC2D27D76ED800E48D71 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7CD3DC2E27D76ED800E48D71 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +57,9 @@
 		7CD3DC4F27D76ED900E48D71 /* KKPExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KKPExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CD3DC5327D76ED900E48D71 /* KKPExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKPExampleUITests.m; sourceTree = "<group>"; };
 		7CD3DC5527D76ED900E48D71 /* KKPExampleUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKPExampleUITestsLaunchTests.m; sourceTree = "<group>"; };
+		7CD3DD7E27D7711D00E48D71 /* ViewController.lua */ = {isa = PBXFileReference; lastKnownFileType = text; path = ViewController.lua; sourceTree = "<group>"; };
+		B4D17522F507C060C467225B /* libPods-KKPExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KKPExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C09666296A643707AC2076BE /* Pods-KKPExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKPExample.debug.xcconfig"; path = "Target Support Files/Pods-KKPExample/Pods-KKPExample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF947D8DF23893C2A59549E4 /* libPods-KKPExample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +88,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0CABCF7E497E9F9F780A2D1C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4D17522F507C060C467225B /* libPods-KKPExample.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7CD3DC2127D76ED800E48D71 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +103,8 @@
 				7CD3DC4827D76ED900E48D71 /* KKPExampleTests */,
 				7CD3DC5227D76ED900E48D71 /* KKPExampleUITests */,
 				7CD3DC2B27D76ED800E48D71 /* Products */,
+				C020A57B70D4F3E005177332 /* Pods */,
+				0CABCF7E497E9F9F780A2D1C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +127,7 @@
 				7CD3DC3127D76ED800E48D71 /* SceneDelegate.m */,
 				7CD3DC3327D76ED800E48D71 /* ViewController.h */,
 				7CD3DC3427D76ED800E48D71 /* ViewController.m */,
+				7CD3DD7E27D7711D00E48D71 /* ViewController.lua */,
 				7CD3DC3627D76ED800E48D71 /* Main.storyboard */,
 				7CD3DC3927D76ED900E48D71 /* Assets.xcassets */,
 				7CD3DC3B27D76ED900E48D71 /* LaunchScreen.storyboard */,
@@ -136,6 +154,15 @@
 			path = KKPExampleUITests;
 			sourceTree = "<group>";
 		};
+		C020A57B70D4F3E005177332 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C09666296A643707AC2076BE /* Pods-KKPExample.debug.xcconfig */,
+				00120598E334B40FCB116C7F /* Pods-KKPExample.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +170,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7CD3DC5927D76ED900E48D71 /* Build configuration list for PBXNativeTarget "KKPExample" */;
 			buildPhases = (
+				5E0F7E8AD252944600D11546 /* [CP] Check Pods Manifest.lock */,
 				7CD3DC2627D76ED800E48D71 /* Sources */,
 				7CD3DC2727D76ED800E48D71 /* Frameworks */,
 				7CD3DC2827D76ED800E48D71 /* Resources */,
@@ -240,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CD3DC3D27D76ED900E48D71 /* LaunchScreen.storyboard in Resources */,
+				7CD3DD7F27D7711D00E48D71 /* ViewController.lua in Resources */,
 				7CD3DC3A27D76ED900E48D71 /* Assets.xcassets in Resources */,
 				7CD3DC3827D76ED800E48D71 /* Main.storyboard in Resources */,
 			);
@@ -260,6 +289,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5E0F7E8AD252944600D11546 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KKPExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7CD3DC2627D76ED800E48D71 /* Sources */ = {
@@ -439,6 +493,7 @@
 		};
 		7CD3DC5A27D76ED900E48D71 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C09666296A643707AC2076BE /* Pods-KKPExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -451,6 +506,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -465,6 +521,7 @@
 		};
 		7CD3DC5B27D76ED900E48D71 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00120598E334B40FCB116C7F /* Pods-KKPExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -477,6 +534,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

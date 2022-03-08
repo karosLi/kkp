@@ -1,0 +1,23 @@
+PODS:
+  - kkp (1.0.0)
+  - Masonry (1.1.0)
+
+DEPENDENCIES:
+  - kkp (from `../`)
+  - Masonry (= 1.1.0)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Masonry
+
+EXTERNAL SOURCES:
+  kkp:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  kkp: 17a3b5b3794e793e05ec8839b4c571116a87b216
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+
+PODFILE CHECKSUM: c06b096788a7a5fa976ebebcbe27a68ed8274336
+
+COCOAPODS: 1.11.2
