@@ -1,0 +1,1184 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7C5BD25627D746E700322E89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C5BD25427D746E700322E89 /* Main.storyboard */; };
+		7C5BD25827D746E800322E89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C5BD25727D746E800322E89 /* Assets.xcassets */; };
+		7C5BD25B27D746E800322E89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C5BD25927D746E800322E89 /* LaunchScreen.storyboard */; };
+		7C5BD26827D746E800322E89 /* KKPDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5BD26727D746E800322E89 /* KKPDemoTests.m */; };
+		7C5BD60F27D7525000322E89 /* test.lua in Resources */ = {isa = PBXBuildFile; fileRef = 7C5BD60D27D7525000322E89 /* test.lua */; };
+		7C5BD61027D7525000322E89 /* CustomTableViewController.lua in Resources */ = {isa = PBXBuildFile; fileRef = 7C5BD60E27D7525000322E89 /* CustomTableViewController.lua */; };
+		7C5BD62327D753CA00322E89 /* KKPNewClassTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5BD61827D753CA00322E89 /* KKPNewClassTest.m */; };
+		7C5BD62427D753CA00322E89 /* KKPNewInstanceTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5BD61927D753CA00322E89 /* KKPNewInstanceTest.m */; };
+		7C5BD62527D753CA00322E89 /* KKPKeyWordTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5BD61A27D753CA00322E89 /* KKPKeyWordTest.m */; };
+		7C5BD62627D753CA00322E89 /* KKPConvertTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5BD61B27D753CA00322E89 /* KKPConvertTest.m */; };
+		7C5BD62727D753CA00322E89 /* KKPBlockConvertTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5BD61D27D753CA00322E89 /* KKPBlockConvertTest.m */; };
+		7C5BD62827D753CA00322E89 /* KKPBlockDefineTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5BD61E27D753CA00322E89 /* KKPBlockDefineTest.m */; };
+		7C5BD62927D753CA00322E89 /* KKPXCTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5BD61F27D753CA00322E89 /* KKPXCTestCase.m */; };
+		7C5BD62A27D753CA00322E89 /* KKPDeviceAndOSTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5BD62027D753CA00322E89 /* KKPDeviceAndOSTest.m */; };
+		7C5BD62B27D753CA00322E89 /* KKPMethodTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5BD62127D753CA00322E89 /* KKPMethodTest.m */; };
+		7C5BD62C27D753CA00322E89 /* KKPCFunctionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5BD62227D753CA00322E89 /* KKPCFunctionTest.m */; };
+		7CD3DB4A27D75F0D00E48D71 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5BD24C27D746E700322E89 /* AppDelegate.m */; };
+		7CD3DB4B27D75F0E00E48D71 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5BD24F27D746E700322E89 /* SceneDelegate.m */; };
+		7CD3DB4C27D75F0E00E48D71 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5BD25227D746E700322E89 /* ViewController.m */; };
+		7CD3DB4D27D75F0E00E48D71 /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5BD61427D7528500322E89 /* ViewController1.swift */; };
+		7CD3DB4E27D75F0E00E48D71 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5BD61227D7528500322E89 /* BaseViewController.m */; };
+		7CD3DB4F27D75F0E00E48D71 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5BD25D27D746E800322E89 /* main.m */; };
+		7CD3DB5127D75F2B00E48D71 /* libkkp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C5BD59927D7505400322E89 /* libkkp.a */; };
+		7CD3DBE827D75FDA00E48D71 /* kkp_helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD3DB5627D75FDA00E48D71 /* kkp_helper.m */; };
+		7CD3DBE927D75FDA00E48D71 /* lauxlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 7CD3DB5A27D75FDA00E48D71 /* lauxlib.c */; };
+		7CD3DBEA27D75FDA00E48D71 /* liolib.c in Sources */ = {isa = PBXBuildFile; fileRef = 7CD3DB6027D75FDA00E48D71 /* liolib.c */; };
+		7CD3DBEB27D75FDA00E48D71 /* lopcodes.c in Sources */ = {isa = PBXBuildFile; fileRef = 7CD3DB6127D75FDA00E48D71 /* lopcodes.c */; };
+		7CD3DBEC27D75FDA00E48D71 /* lstate.c in Sources */ = {isa = PBXBuildFile; fileRef = 7CD3DB6227D75FDA00E48D71 /* lstate.c */; };
+		7CD3DBED27D75FDA00E48D71 /* lobject.c in Sources */ = {isa = PBXBuildFile; fileRef = 7CD3DB6427D75FDA00E48D71 /* lobject.c */; };
+		7CD3DBEE27D75FDA00E48D71 /* lmathlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 7CD3DB6627D75FDA00E48D71 /* lmathlib.c */; };
+		7CD3DBEF27D75FDA00E48D71 /* loadlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 7CD3DB6827D75FDA00E48D71 /* loadlib.c */; };
+		7CD3DBF027D75FDA00E48D71 /* lvm.c in Sources */ = {isa = PBXBuildFile; fileRef = 7CD3DB6927D75FDA00E48D71 /* lvm.c */; };
+		7CD3DBF127D75FDA00E48D71 /* lfunc.c in Sources */ = {isa = PBXBuildFile; fileRef = 7CD3DB6A27D75FDA00E48D71 /* lfunc.c */; };
+		7CD3DBF227D75FDA00E48D71 /* lstrlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 7CD3DB6B27D75FDA00E48D71 /* lstrlib.c */; };
+		7CD3DBF327D75FDA00E48D71 /* lua.c in Sources */ = {isa = PBXBuildFile; fileRef = 7CD3DB6C27D75FDA00E48D71 /* lua.c */; };
+		7CD3DBF427D75FDA00E48D71 /* linit.c in Sources */ = {isa = PBXBuildFile; fileRef = 7CD3DB6E27D75FDA00E48D71 /* linit.c */; };
+		7CD3DBF527D75FDA00E48D71 /* lstring.c in Sources */ = {isa = PBXBuildFile; fileRef = 7CD3DB7127D75FDA00E48D71 /* lstring.c */; };
+		7CD3DBF627D75FDA00E48D71 /* lundump.c in Sources */ = {isa = PBXBuildFile; fileRef = 7CD3DB7327D75FDA00E48D71 /* lundump.c */; };
+		7CD3DBF727D75FDA00E48D71 /* lctype.c in Sources */ = {isa = PBXBuildFile; fileRef = 7CD3DB7427D75FDA00E48D71 /* lctype.c */; };
+		7CD3DBF827D75FDA00E48D71 /* luac.c in Sources */ = {isa = PBXBuildFile; fileRef = 7CD3DB7727D75FDA00E48D71 /* luac.c */; };
+		7CD3DBF927D75FDA00E48D71 /* ltable.c in Sources */ = {isa = PBXBuildFile; fileRef = 7CD3DB7927D75FDA00E48D71 /* ltable.c */; };
+		7CD3DBFA27D75FDA00E48D71 /* ldump.c in Sources */ = {isa = PBXBuildFile; fileRef = 7CD3DB7B27D75FDA00E48D71 /* ldump.c */; };
+		7CD3DBFB27D75FDA00E48D71 /* loslib.c in Sources */ = {isa = PBXBuildFile; fileRef = 7CD3DB7F27D75FDA00E48D71 /* loslib.c */; };
+		7CD3DBFC27D75FDA00E48D71 /* lgc.c in Sources */ = {isa = PBXBuildFile; fileRef = 7CD3DB8027D75FDA00E48D71 /* lgc.c */; };
+		7CD3DBFD27D75FDA00E48D71 /* lzio.c in Sources */ = {isa = PBXBuildFile; fileRef = 7CD3DB8127D75FDA00E48D71 /* lzio.c */; };
+		7CD3DBFE27D75FDA00E48D71 /* ldblib.c in Sources */ = {isa = PBXBuildFile; fileRef = 7CD3DB8227D75FDA00E48D71 /* ldblib.c */; };
+		7CD3DBFF27D75FDA00E48D71 /* lutf8lib.c in Sources */ = {isa = PBXBuildFile; fileRef = 7CD3DB8327D75FDA00E48D71 /* lutf8lib.c */; };
+		7CD3DC0027D75FDA00E48D71 /* lmem.c in Sources */ = {isa = PBXBuildFile; fileRef = 7CD3DB8427D75FDA00E48D71 /* lmem.c */; };
+		7CD3DC0127D75FDA00E48D71 /* lcorolib.c in Sources */ = {isa = PBXBuildFile; fileRef = 7CD3DB8727D75FDA00E48D71 /* lcorolib.c */; };
+		7CD3DC0227D75FDA00E48D71 /* lcode.c in Sources */ = {isa = PBXBuildFile; fileRef = 7CD3DB8927D75FDA00E48D71 /* lcode.c */; };
+		7CD3DC0327D75FDA00E48D71 /* ltablib.c in Sources */ = {isa = PBXBuildFile; fileRef = 7CD3DB8A27D75FDA00E48D71 /* ltablib.c */; };
+		7CD3DC0427D75FDA00E48D71 /* lapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 7CD3DB8B27D75FDA00E48D71 /* lapi.c */; };
+		7CD3DC0527D75FDA00E48D71 /* lbaselib.c in Sources */ = {isa = PBXBuildFile; fileRef = 7CD3DB8C27D75FDA00E48D71 /* lbaselib.c */; };
+		7CD3DC0627D75FDA00E48D71 /* ldebug.c in Sources */ = {isa = PBXBuildFile; fileRef = 7CD3DB8E27D75FDA00E48D71 /* ldebug.c */; };
+		7CD3DC0727D75FDA00E48D71 /* lparser.c in Sources */ = {isa = PBXBuildFile; fileRef = 7CD3DB9127D75FDA00E48D71 /* lparser.c */; };
+		7CD3DC0827D75FDA00E48D71 /* llex.c in Sources */ = {isa = PBXBuildFile; fileRef = 7CD3DB9227D75FDA00E48D71 /* llex.c */; };
+		7CD3DC0927D75FDA00E48D71 /* ltm.c in Sources */ = {isa = PBXBuildFile; fileRef = 7CD3DB9427D75FDA00E48D71 /* ltm.c */; };
+		7CD3DC0A27D75FDA00E48D71 /* ldo.c in Sources */ = {isa = PBXBuildFile; fileRef = 7CD3DB9627D75FDA00E48D71 /* ldo.c */; };
+		7CD3DC0B27D75FDA00E48D71 /* tolua_map.c in Sources */ = {isa = PBXBuildFile; fileRef = 7CD3DB9B27D75FDA00E48D71 /* tolua_map.c */; };
+		7CD3DC0C27D75FDA00E48D71 /* tolua_event.c in Sources */ = {isa = PBXBuildFile; fileRef = 7CD3DB9C27D75FDA00E48D71 /* tolua_event.c */; };
+		7CD3DC0D27D75FDA00E48D71 /* tolua_to.c in Sources */ = {isa = PBXBuildFile; fileRef = 7CD3DB9D27D75FDA00E48D71 /* tolua_to.c */; };
+		7CD3DC0E27D75FDA00E48D71 /* tolua_is.c in Sources */ = {isa = PBXBuildFile; fileRef = 7CD3DB9E27D75FDA00E48D71 /* tolua_is.c */; };
+		7CD3DC0F27D75FDA00E48D71 /* dispatch_lua.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD3DBA627D75FDA00E48D71 /* dispatch_lua.m */; };
+		7CD3DC1027D75FDA00E48D71 /* tolua_push.c in Sources */ = {isa = PBXBuildFile; fileRef = 7CD3DBA827D75FDA00E48D71 /* tolua_push.c */; };
+		7CD3DC1127D75FDA00E48D71 /* kkp_capi.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD3DBAA27D75FDA00E48D71 /* kkp_capi.m */; };
+		7CD3DC1227D75FDA00E48D71 /* NSObject+KKPIvarAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD3DBAC27D75FDA00E48D71 /* NSObject+KKPIvarAccess.m */; };
+		7CD3DC1327D75FDA00E48D71 /* KKPBlockWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD3DBB127D75FDA00E48D71 /* KKPBlockWrapper.m */; };
+		7CD3DC1427D75FDA00E48D71 /* KKPBlockDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD3DBB227D75FDA00E48D71 /* KKPBlockDescription.m */; };
+		7CD3DC1527D75FDA00E48D71 /* kkp_runtime_helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD3DBB527D75FDA00E48D71 /* kkp_runtime_helper.m */; };
+		7CD3DC1627D75FDA00E48D71 /* kkp_global_config.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD3DBB827D75FDA00E48D71 /* kkp_global_config.m */; };
+		7CD3DC1727D75FDA00E48D71 /* kkp_global_util.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD3DBB927D75FDA00E48D71 /* kkp_global_util.m */; };
+		7CD3DC1827D75FDA00E48D71 /* kkp.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD3DBC327D75FDA00E48D71 /* kkp.m */; };
+		7CD3DC1927D75FDA00E48D71 /* kkp_struct.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD3DBC727D75FDA00E48D71 /* kkp_struct.m */; };
+		7CD3DC1A27D75FDA00E48D71 /* kkp_instance.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD3DBC827D75FDA00E48D71 /* kkp_instance.m */; };
+		7CD3DC1B27D75FDA00E48D71 /* kkp_class.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD3DBCA27D75FDA00E48D71 /* kkp_class.m */; };
+		7CD3DC1E27D75FDA00E48D71 /* kkp_converter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD3DBE727D75FDA00E48D71 /* kkp_converter.m */; };
+		7CD3DC1F27D7611700E48D71 /* kkp.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7CD3DB5727D75FDA00E48D71 /* kkp.h */; };
+		7CD3DC2027D761A400E48D71 /* libffi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CD3DBDF27D75FDA00E48D71 /* libffi.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7C5BD26427D746E800322E89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7C5BD24027D746E700322E89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C5BD24727D746E700322E89;
+			remoteInfo = KKPDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7C5BD59727D7505400322E89 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				7CD3DC1F27D7611700E48D71 /* kkp.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7C5BD24827D746E700322E89 /* KKPDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KKPDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C5BD24B27D746E700322E89 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7C5BD24C27D746E700322E89 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7C5BD24E27D746E700322E89 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		7C5BD24F27D746E700322E89 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		7C5BD25127D746E700322E89 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7C5BD25227D746E700322E89 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7C5BD25527D746E700322E89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7C5BD25727D746E800322E89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7C5BD25A27D746E800322E89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7C5BD25C27D746E800322E89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C5BD25D27D746E800322E89 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7C5BD26327D746E800322E89 /* KKPDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KKPDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C5BD26727D746E800322E89 /* KKPDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKPDemoTests.m; sourceTree = "<group>"; };
+		7C5BD59927D7505400322E89 /* libkkp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libkkp.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C5BD60D27D7525000322E89 /* test.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.lua; sourceTree = "<group>"; };
+		7C5BD60E27D7525000322E89 /* CustomTableViewController.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CustomTableViewController.lua; sourceTree = "<group>"; };
+		7C5BD61127D7528400322E89 /* KKPDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KKPDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		7C5BD61227D7528500322E89 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		7C5BD61327D7528500322E89 /* ProtocolLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtocolLoader.h; sourceTree = "<group>"; };
+		7C5BD61427D7528500322E89 /* ViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
+		7C5BD61527D7528500322E89 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		7C5BD61827D753CA00322E89 /* KKPNewClassTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKPNewClassTest.m; sourceTree = "<group>"; };
+		7C5BD61927D753CA00322E89 /* KKPNewInstanceTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKPNewInstanceTest.m; sourceTree = "<group>"; };
+		7C5BD61A27D753CA00322E89 /* KKPKeyWordTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKPKeyWordTest.m; sourceTree = "<group>"; };
+		7C5BD61B27D753CA00322E89 /* KKPConvertTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKPConvertTest.m; sourceTree = "<group>"; };
+		7C5BD61C27D753CA00322E89 /* KKPXCTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKPXCTestCase.h; sourceTree = "<group>"; };
+		7C5BD61D27D753CA00322E89 /* KKPBlockConvertTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKPBlockConvertTest.m; sourceTree = "<group>"; };
+		7C5BD61E27D753CA00322E89 /* KKPBlockDefineTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKPBlockDefineTest.m; sourceTree = "<group>"; };
+		7C5BD61F27D753CA00322E89 /* KKPXCTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKPXCTestCase.m; sourceTree = "<group>"; };
+		7C5BD62027D753CA00322E89 /* KKPDeviceAndOSTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKPDeviceAndOSTest.m; sourceTree = "<group>"; };
+		7C5BD62127D753CA00322E89 /* KKPMethodTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKPMethodTest.m; sourceTree = "<group>"; };
+		7C5BD62227D753CA00322E89 /* KKPCFunctionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKPCFunctionTest.m; sourceTree = "<group>"; };
+		7CD3DB5527D75FDA00E48D71 /* kkp_runtime_helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kkp_runtime_helper.h; sourceTree = "<group>"; };
+		7CD3DB5627D75FDA00E48D71 /* kkp_helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kkp_helper.m; sourceTree = "<group>"; };
+		7CD3DB5727D75FDA00E48D71 /* kkp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kkp.h; sourceTree = "<group>"; };
+		7CD3DB5827D75FDA00E48D71 /* kkp_converter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kkp_converter.h; sourceTree = "<group>"; };
+		7CD3DB5A27D75FDA00E48D71 /* lauxlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lauxlib.c; sourceTree = "<group>"; };
+		7CD3DB5B27D75FDA00E48D71 /* lmem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lmem.h; sourceTree = "<group>"; };
+		7CD3DB5C27D75FDA00E48D71 /* llimits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = llimits.h; sourceTree = "<group>"; };
+		7CD3DB5D27D75FDA00E48D71 /* luaconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = luaconf.h; sourceTree = "<group>"; };
+		7CD3DB5E27D75FDA00E48D71 /* lzio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lzio.h; sourceTree = "<group>"; };
+		7CD3DB5F27D75FDA00E48D71 /* lgc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lgc.h; sourceTree = "<group>"; };
+		7CD3DB6027D75FDA00E48D71 /* liolib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = liolib.c; sourceTree = "<group>"; };
+		7CD3DB6127D75FDA00E48D71 /* lopcodes.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lopcodes.c; sourceTree = "<group>"; };
+		7CD3DB6227D75FDA00E48D71 /* lstate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lstate.c; sourceTree = "<group>"; };
+		7CD3DB6327D75FDA00E48D71 /* lua.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = lua.hpp; sourceTree = "<group>"; };
+		7CD3DB6427D75FDA00E48D71 /* lobject.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lobject.c; sourceTree = "<group>"; };
+		7CD3DB6527D75FDA00E48D71 /* lualib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lualib.h; sourceTree = "<group>"; };
+		7CD3DB6627D75FDA00E48D71 /* lmathlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lmathlib.c; sourceTree = "<group>"; };
+		7CD3DB6727D75FDA00E48D71 /* lopnames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lopnames.h; sourceTree = "<group>"; };
+		7CD3DB6827D75FDA00E48D71 /* loadlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = loadlib.c; sourceTree = "<group>"; };
+		7CD3DB6927D75FDA00E48D71 /* lvm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lvm.c; sourceTree = "<group>"; };
+		7CD3DB6A27D75FDA00E48D71 /* lfunc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lfunc.c; sourceTree = "<group>"; };
+		7CD3DB6B27D75FDA00E48D71 /* lstrlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lstrlib.c; sourceTree = "<group>"; };
+		7CD3DB6C27D75FDA00E48D71 /* lua.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lua.c; sourceTree = "<group>"; };
+		7CD3DB6D27D75FDA00E48D71 /* ldebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ldebug.h; sourceTree = "<group>"; };
+		7CD3DB6E27D75FDA00E48D71 /* linit.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = linit.c; sourceTree = "<group>"; };
+		7CD3DB6F27D75FDA00E48D71 /* lcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lcode.h; sourceTree = "<group>"; };
+		7CD3DB7027D75FDA00E48D71 /* lapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lapi.h; sourceTree = "<group>"; };
+		7CD3DB7127D75FDA00E48D71 /* lstring.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lstring.c; sourceTree = "<group>"; };
+		7CD3DB7227D75FDA00E48D71 /* ldo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ldo.h; sourceTree = "<group>"; };
+		7CD3DB7327D75FDA00E48D71 /* lundump.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lundump.c; sourceTree = "<group>"; };
+		7CD3DB7427D75FDA00E48D71 /* lctype.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lctype.c; sourceTree = "<group>"; };
+		7CD3DB7527D75FDA00E48D71 /* ljumptab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ljumptab.h; sourceTree = "<group>"; };
+		7CD3DB7627D75FDA00E48D71 /* llex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = llex.h; sourceTree = "<group>"; };
+		7CD3DB7727D75FDA00E48D71 /* luac.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = luac.c; sourceTree = "<group>"; };
+		7CD3DB7827D75FDA00E48D71 /* ltm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ltm.h; sourceTree = "<group>"; };
+		7CD3DB7927D75FDA00E48D71 /* ltable.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ltable.c; sourceTree = "<group>"; };
+		7CD3DB7A27D75FDA00E48D71 /* lparser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lparser.h; sourceTree = "<group>"; };
+		7CD3DB7B27D75FDA00E48D71 /* ldump.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ldump.c; sourceTree = "<group>"; };
+		7CD3DB7C27D75FDA00E48D71 /* lobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lobject.h; sourceTree = "<group>"; };
+		7CD3DB7D27D75FDA00E48D71 /* lstate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lstate.h; sourceTree = "<group>"; };
+		7CD3DB7E27D75FDA00E48D71 /* lopcodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lopcodes.h; sourceTree = "<group>"; };
+		7CD3DB7F27D75FDA00E48D71 /* loslib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = loslib.c; sourceTree = "<group>"; };
+		7CD3DB8027D75FDA00E48D71 /* lgc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lgc.c; sourceTree = "<group>"; };
+		7CD3DB8127D75FDA00E48D71 /* lzio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lzio.c; sourceTree = "<group>"; };
+		7CD3DB8227D75FDA00E48D71 /* ldblib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ldblib.c; sourceTree = "<group>"; };
+		7CD3DB8327D75FDA00E48D71 /* lutf8lib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lutf8lib.c; sourceTree = "<group>"; };
+		7CD3DB8427D75FDA00E48D71 /* lmem.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lmem.c; sourceTree = "<group>"; };
+		7CD3DB8527D75FDA00E48D71 /* lauxlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lauxlib.h; sourceTree = "<group>"; };
+		7CD3DB8627D75FDA00E48D71 /* lvm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lvm.h; sourceTree = "<group>"; };
+		7CD3DB8727D75FDA00E48D71 /* lcorolib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lcorolib.c; sourceTree = "<group>"; };
+		7CD3DB8827D75FDA00E48D71 /* lstring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lstring.h; sourceTree = "<group>"; };
+		7CD3DB8927D75FDA00E48D71 /* lcode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lcode.c; sourceTree = "<group>"; };
+		7CD3DB8A27D75FDA00E48D71 /* ltablib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ltablib.c; sourceTree = "<group>"; };
+		7CD3DB8B27D75FDA00E48D71 /* lapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lapi.c; sourceTree = "<group>"; };
+		7CD3DB8C27D75FDA00E48D71 /* lbaselib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lbaselib.c; sourceTree = "<group>"; };
+		7CD3DB8D27D75FDA00E48D71 /* lua.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lua.h; sourceTree = "<group>"; };
+		7CD3DB8E27D75FDA00E48D71 /* ldebug.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ldebug.c; sourceTree = "<group>"; };
+		7CD3DB8F27D75FDA00E48D71 /* lfunc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lfunc.h; sourceTree = "<group>"; };
+		7CD3DB9027D75FDA00E48D71 /* lprefix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lprefix.h; sourceTree = "<group>"; };
+		7CD3DB9127D75FDA00E48D71 /* lparser.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lparser.c; sourceTree = "<group>"; };
+		7CD3DB9227D75FDA00E48D71 /* llex.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = llex.c; sourceTree = "<group>"; };
+		7CD3DB9327D75FDA00E48D71 /* ltable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ltable.h; sourceTree = "<group>"; };
+		7CD3DB9427D75FDA00E48D71 /* ltm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ltm.c; sourceTree = "<group>"; };
+		7CD3DB9527D75FDA00E48D71 /* lctype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lctype.h; sourceTree = "<group>"; };
+		7CD3DB9627D75FDA00E48D71 /* ldo.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ldo.c; sourceTree = "<group>"; };
+		7CD3DB9727D75FDA00E48D71 /* lundump.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lundump.h; sourceTree = "<group>"; };
+		7CD3DB9B27D75FDA00E48D71 /* tolua_map.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tolua_map.c; sourceTree = "<group>"; };
+		7CD3DB9C27D75FDA00E48D71 /* tolua_event.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tolua_event.c; sourceTree = "<group>"; };
+		7CD3DB9D27D75FDA00E48D71 /* tolua_to.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tolua_to.c; sourceTree = "<group>"; };
+		7CD3DB9E27D75FDA00E48D71 /* tolua_is.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tolua_is.c; sourceTree = "<group>"; };
+		7CD3DB9F27D75FDA00E48D71 /* tolua_event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tolua_event.h; sourceTree = "<group>"; };
+		7CD3DBA627D75FDA00E48D71 /* dispatch_lua.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dispatch_lua.m; sourceTree = "<group>"; };
+		7CD3DBA727D75FDA00E48D71 /* tolua++.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "tolua++.h"; sourceTree = "<group>"; };
+		7CD3DBA827D75FDA00E48D71 /* tolua_push.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tolua_push.c; sourceTree = "<group>"; };
+		7CD3DBA927D75FDA00E48D71 /* kkp_capi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kkp_capi.h; sourceTree = "<group>"; };
+		7CD3DBAA27D75FDA00E48D71 /* kkp_capi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kkp_capi.m; sourceTree = "<group>"; };
+		7CD3DBAC27D75FDA00E48D71 /* NSObject+KKPIvarAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KKPIvarAccess.m"; sourceTree = "<group>"; };
+		7CD3DBAD27D75FDA00E48D71 /* NSObject+KKPIvarAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+KKPIvarAccess.h"; sourceTree = "<group>"; };
+		7CD3DBAF27D75FDA00E48D71 /* KKPBlockWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKPBlockWrapper.h; sourceTree = "<group>"; };
+		7CD3DBB027D75FDA00E48D71 /* KKPBlockDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKPBlockDescription.h; sourceTree = "<group>"; };
+		7CD3DBB127D75FDA00E48D71 /* KKPBlockWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKPBlockWrapper.m; sourceTree = "<group>"; };
+		7CD3DBB227D75FDA00E48D71 /* KKPBlockDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKPBlockDescription.m; sourceTree = "<group>"; };
+		7CD3DBB327D75FDA00E48D71 /* kkp_stdlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kkp_stdlib.h; sourceTree = "<group>"; };
+		7CD3DBB427D75FDA00E48D71 /* kkp_helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kkp_helper.h; sourceTree = "<group>"; };
+		7CD3DBB527D75FDA00E48D71 /* kkp_runtime_helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kkp_runtime_helper.m; sourceTree = "<group>"; };
+		7CD3DBB727D75FDA00E48D71 /* kkp_global_util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kkp_global_util.h; sourceTree = "<group>"; };
+		7CD3DBB827D75FDA00E48D71 /* kkp_global_config.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kkp_global_config.m; sourceTree = "<group>"; };
+		7CD3DBB927D75FDA00E48D71 /* kkp_global_util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kkp_global_util.m; sourceTree = "<group>"; };
+		7CD3DBBA27D75FDA00E48D71 /* kkp_global_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kkp_global_config.h; sourceTree = "<group>"; };
+		7CD3DBBB27D75FDA00E48D71 /* kkp_define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kkp_define.h; sourceTree = "<group>"; };
+		7CD3DBBD27D75FDA00E48D71 /* init.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = init.lua; sourceTree = "<group>"; };
+		7CD3DBBE27D75FDA00E48D71 /* enums.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = enums.lua; sourceTree = "<group>"; };
+		7CD3DBBF27D75FDA00E48D71 /* ext.table.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ext.table.lua; sourceTree = "<group>"; };
+		7CD3DBC027D75FDA00E48D71 /* kkpStruct.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = kkpStruct.lua; sourceTree = "<group>"; };
+		7CD3DBC127D75FDA00E48D71 /* kkpClass.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = kkpClass.lua; sourceTree = "<group>"; };
+		7CD3DBC227D75FDA00E48D71 /* ext.string.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ext.string.lua; sourceTree = "<group>"; };
+		7CD3DBC327D75FDA00E48D71 /* kkp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kkp.m; sourceTree = "<group>"; };
+		7CD3DBC527D75FDA00E48D71 /* kkp_instance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kkp_instance.h; sourceTree = "<group>"; };
+		7CD3DBC627D75FDA00E48D71 /* kkp_class.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kkp_class.h; sourceTree = "<group>"; };
+		7CD3DBC727D75FDA00E48D71 /* kkp_struct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kkp_struct.m; sourceTree = "<group>"; };
+		7CD3DBC827D75FDA00E48D71 /* kkp_instance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kkp_instance.m; sourceTree = "<group>"; };
+		7CD3DBC927D75FDA00E48D71 /* kkp_struct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kkp_struct.h; sourceTree = "<group>"; };
+		7CD3DBCA27D75FDA00E48D71 /* kkp_class.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kkp_class.m; sourceTree = "<group>"; };
+		7CD3DBCD27D75FDA00E48D71 /* ffitarget_arm64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffitarget_arm64.h; sourceTree = "<group>"; };
+		7CD3DBCE27D75FDA00E48D71 /* ffitarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffitarget.h; sourceTree = "<group>"; };
+		7CD3DBCF27D75FDA00E48D71 /* ffi_i386.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffi_i386.h; sourceTree = "<group>"; };
+		7CD3DBD027D75FDA00E48D71 /* ffitarget_x86_64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffitarget_x86_64.h; sourceTree = "<group>"; };
+		7CD3DBD127D75FDA00E48D71 /* ffitarget_armv7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffitarget_armv7.h; sourceTree = "<group>"; };
+		7CD3DBD227D75FDA00E48D71 /* ffi_x86_64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffi_x86_64.h; sourceTree = "<group>"; };
+		7CD3DBD327D75FDA00E48D71 /* ffitarget_i386.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffitarget_i386.h; sourceTree = "<group>"; };
+		7CD3DBD427D75FDA00E48D71 /* ffi_common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffi_common.h; sourceTree = "<group>"; };
+		7CD3DBD527D75FDA00E48D71 /* fficonfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fficonfig.h; sourceTree = "<group>"; };
+		7CD3DBD627D75FDA00E48D71 /* fficonfig_x86_64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fficonfig_x86_64.h; sourceTree = "<group>"; };
+		7CD3DBD727D75FDA00E48D71 /* fficonfig_i386.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fficonfig_i386.h; sourceTree = "<group>"; };
+		7CD3DBD827D75FDA00E48D71 /* fficonfig_armv7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fficonfig_armv7.h; sourceTree = "<group>"; };
+		7CD3DBD927D75FDA00E48D71 /* ffi_cfi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffi_cfi.h; sourceTree = "<group>"; };
+		7CD3DBDA27D75FDA00E48D71 /* fficonfig_arm64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fficonfig_arm64.h; sourceTree = "<group>"; };
+		7CD3DBDB27D75FDA00E48D71 /* tramp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tramp.h; sourceTree = "<group>"; };
+		7CD3DBDC27D75FDA00E48D71 /* ffi_armv7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffi_armv7.h; sourceTree = "<group>"; };
+		7CD3DBDD27D75FDA00E48D71 /* ffi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffi.h; sourceTree = "<group>"; };
+		7CD3DBDE27D75FDA00E48D71 /* ffi_arm64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffi_arm64.h; sourceTree = "<group>"; };
+		7CD3DBDF27D75FDA00E48D71 /* libffi.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libffi.a; sourceTree = "<group>"; };
+		7CD3DBE227D75FDA00E48D71 /* compile-stdlib.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "compile-stdlib.sh"; sourceTree = "<group>"; };
+		7CD3DBE727D75FDA00E48D71 /* kkp_converter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kkp_converter.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7C5BD24527D746E700322E89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CD3DB5127D75F2B00E48D71 /* libkkp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C5BD26027D746E800322E89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C5BD59627D7505400322E89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CD3DC2027D761A400E48D71 /* libffi.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7C5BD23F27D746E700322E89 = {
+			isa = PBXGroup;
+			children = (
+				7CD3DB5427D75FDA00E48D71 /* kkp */,
+				7C5BD60C27D7525000322E89 /* scripts */,
+				7C5BD24A27D746E700322E89 /* KKPDemo */,
+				7C5BD26627D746E800322E89 /* KKPDemoTests */,
+				7C5BD24927D746E700322E89 /* Products */,
+				7CD3DB5027D75F2B00E48D71 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7C5BD24927D746E700322E89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7C5BD24827D746E700322E89 /* KKPDemo.app */,
+				7C5BD26327D746E800322E89 /* KKPDemoTests.xctest */,
+				7C5BD59927D7505400322E89 /* libkkp.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7C5BD24A27D746E700322E89 /* KKPDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7C5BD61327D7528500322E89 /* ProtocolLoader.h */,
+				7C5BD24B27D746E700322E89 /* AppDelegate.h */,
+				7C5BD24C27D746E700322E89 /* AppDelegate.m */,
+				7C5BD24E27D746E700322E89 /* SceneDelegate.h */,
+				7C5BD24F27D746E700322E89 /* SceneDelegate.m */,
+				7C5BD25127D746E700322E89 /* ViewController.h */,
+				7C5BD25227D746E700322E89 /* ViewController.m */,
+				7C5BD61427D7528500322E89 /* ViewController1.swift */,
+				7C5BD61527D7528500322E89 /* BaseViewController.h */,
+				7C5BD61227D7528500322E89 /* BaseViewController.m */,
+				7C5BD25427D746E700322E89 /* Main.storyboard */,
+				7C5BD25727D746E800322E89 /* Assets.xcassets */,
+				7C5BD25927D746E800322E89 /* LaunchScreen.storyboard */,
+				7C5BD25C27D746E800322E89 /* Info.plist */,
+				7C5BD25D27D746E800322E89 /* main.m */,
+				7C5BD61127D7528400322E89 /* KKPDemo-Bridging-Header.h */,
+			);
+			path = KKPDemo;
+			sourceTree = "<group>";
+		};
+		7C5BD26627D746E800322E89 /* KKPDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				7C5BD62127D753CA00322E89 /* KKPMethodTest.m */,
+				7C5BD61827D753CA00322E89 /* KKPNewClassTest.m */,
+				7C5BD61B27D753CA00322E89 /* KKPConvertTest.m */,
+				7C5BD61927D753CA00322E89 /* KKPNewInstanceTest.m */,
+				7C5BD61D27D753CA00322E89 /* KKPBlockConvertTest.m */,
+				7C5BD61E27D753CA00322E89 /* KKPBlockDefineTest.m */,
+				7C5BD61A27D753CA00322E89 /* KKPKeyWordTest.m */,
+				7C5BD62227D753CA00322E89 /* KKPCFunctionTest.m */,
+				7C5BD62027D753CA00322E89 /* KKPDeviceAndOSTest.m */,
+				7C5BD61C27D753CA00322E89 /* KKPXCTestCase.h */,
+				7C5BD61F27D753CA00322E89 /* KKPXCTestCase.m */,
+				7C5BD26727D746E800322E89 /* KKPDemoTests.m */,
+			);
+			path = KKPDemoTests;
+			sourceTree = "<group>";
+		};
+		7C5BD60C27D7525000322E89 /* scripts */ = {
+			isa = PBXGroup;
+			children = (
+				7C5BD60D27D7525000322E89 /* test.lua */,
+				7C5BD60E27D7525000322E89 /* CustomTableViewController.lua */,
+			);
+			path = scripts;
+			sourceTree = "<group>";
+		};
+		7CD3DB5027D75F2B00E48D71 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7CD3DB5427D75FDA00E48D71 /* kkp */ = {
+			isa = PBXGroup;
+			children = (
+				7CD3DBCB27D75FDA00E48D71 /* libffi */,
+				7CD3DB5927D75FDA00E48D71 /* lua */,
+				7CD3DB9827D75FDA00E48D71 /* extensions */,
+				7CD3DBE027D75FDA00E48D71 /* build-scripts */,
+				7CD3DBBC27D75FDA00E48D71 /* stdlib */,
+				7CD3DBB627D75FDA00E48D71 /* global-function */,
+				7CD3DBC427D75FDA00E48D71 /* modules */,
+				7CD3DB5727D75FDA00E48D71 /* kkp.h */,
+				7CD3DBC327D75FDA00E48D71 /* kkp.m */,
+				7CD3DBB327D75FDA00E48D71 /* kkp_stdlib.h */,
+				7CD3DBBB27D75FDA00E48D71 /* kkp_define.h */,
+				7CD3DBB427D75FDA00E48D71 /* kkp_helper.h */,
+				7CD3DB5627D75FDA00E48D71 /* kkp_helper.m */,
+				7CD3DB5827D75FDA00E48D71 /* kkp_converter.h */,
+				7CD3DBE727D75FDA00E48D71 /* kkp_converter.m */,
+				7CD3DBB527D75FDA00E48D71 /* kkp_runtime_helper.m */,
+				7CD3DB5527D75FDA00E48D71 /* kkp_runtime_helper.h */,
+			);
+			name = kkp;
+			path = ../kkp;
+			sourceTree = "<group>";
+		};
+		7CD3DB5927D75FDA00E48D71 /* lua */ = {
+			isa = PBXGroup;
+			children = (
+				7CD3DB5D27D75FDA00E48D71 /* luaconf.h */,
+				7CD3DB5A27D75FDA00E48D71 /* lauxlib.c */,
+				7CD3DB5B27D75FDA00E48D71 /* lmem.h */,
+				7CD3DB5C27D75FDA00E48D71 /* llimits.h */,
+				7CD3DB5E27D75FDA00E48D71 /* lzio.h */,
+				7CD3DB5F27D75FDA00E48D71 /* lgc.h */,
+				7CD3DB6027D75FDA00E48D71 /* liolib.c */,
+				7CD3DB6127D75FDA00E48D71 /* lopcodes.c */,
+				7CD3DB6227D75FDA00E48D71 /* lstate.c */,
+				7CD3DB6327D75FDA00E48D71 /* lua.hpp */,
+				7CD3DB6427D75FDA00E48D71 /* lobject.c */,
+				7CD3DB6527D75FDA00E48D71 /* lualib.h */,
+				7CD3DB6627D75FDA00E48D71 /* lmathlib.c */,
+				7CD3DB6727D75FDA00E48D71 /* lopnames.h */,
+				7CD3DB6827D75FDA00E48D71 /* loadlib.c */,
+				7CD3DB6927D75FDA00E48D71 /* lvm.c */,
+				7CD3DB6A27D75FDA00E48D71 /* lfunc.c */,
+				7CD3DB6B27D75FDA00E48D71 /* lstrlib.c */,
+				7CD3DB6C27D75FDA00E48D71 /* lua.c */,
+				7CD3DB6D27D75FDA00E48D71 /* ldebug.h */,
+				7CD3DB6E27D75FDA00E48D71 /* linit.c */,
+				7CD3DB6F27D75FDA00E48D71 /* lcode.h */,
+				7CD3DB7027D75FDA00E48D71 /* lapi.h */,
+				7CD3DB7127D75FDA00E48D71 /* lstring.c */,
+				7CD3DB7227D75FDA00E48D71 /* ldo.h */,
+				7CD3DB7327D75FDA00E48D71 /* lundump.c */,
+				7CD3DB7427D75FDA00E48D71 /* lctype.c */,
+				7CD3DB7527D75FDA00E48D71 /* ljumptab.h */,
+				7CD3DB7627D75FDA00E48D71 /* llex.h */,
+				7CD3DB7727D75FDA00E48D71 /* luac.c */,
+				7CD3DB7827D75FDA00E48D71 /* ltm.h */,
+				7CD3DB7927D75FDA00E48D71 /* ltable.c */,
+				7CD3DB7A27D75FDA00E48D71 /* lparser.h */,
+				7CD3DB7B27D75FDA00E48D71 /* ldump.c */,
+				7CD3DB7C27D75FDA00E48D71 /* lobject.h */,
+				7CD3DB7D27D75FDA00E48D71 /* lstate.h */,
+				7CD3DB7E27D75FDA00E48D71 /* lopcodes.h */,
+				7CD3DB7F27D75FDA00E48D71 /* loslib.c */,
+				7CD3DB8027D75FDA00E48D71 /* lgc.c */,
+				7CD3DB8127D75FDA00E48D71 /* lzio.c */,
+				7CD3DB8227D75FDA00E48D71 /* ldblib.c */,
+				7CD3DB8327D75FDA00E48D71 /* lutf8lib.c */,
+				7CD3DB8427D75FDA00E48D71 /* lmem.c */,
+				7CD3DB8527D75FDA00E48D71 /* lauxlib.h */,
+				7CD3DB8627D75FDA00E48D71 /* lvm.h */,
+				7CD3DB8727D75FDA00E48D71 /* lcorolib.c */,
+				7CD3DB8827D75FDA00E48D71 /* lstring.h */,
+				7CD3DB8927D75FDA00E48D71 /* lcode.c */,
+				7CD3DB8A27D75FDA00E48D71 /* ltablib.c */,
+				7CD3DB8B27D75FDA00E48D71 /* lapi.c */,
+				7CD3DB8C27D75FDA00E48D71 /* lbaselib.c */,
+				7CD3DB8D27D75FDA00E48D71 /* lua.h */,
+				7CD3DB8E27D75FDA00E48D71 /* ldebug.c */,
+				7CD3DB8F27D75FDA00E48D71 /* lfunc.h */,
+				7CD3DB9027D75FDA00E48D71 /* lprefix.h */,
+				7CD3DB9127D75FDA00E48D71 /* lparser.c */,
+				7CD3DB9227D75FDA00E48D71 /* llex.c */,
+				7CD3DB9327D75FDA00E48D71 /* ltable.h */,
+				7CD3DB9427D75FDA00E48D71 /* ltm.c */,
+				7CD3DB9527D75FDA00E48D71 /* lctype.h */,
+				7CD3DB9627D75FDA00E48D71 /* ldo.c */,
+				7CD3DB9727D75FDA00E48D71 /* lundump.h */,
+			);
+			path = lua;
+			sourceTree = "<group>";
+		};
+		7CD3DB9827D75FDA00E48D71 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7CD3DB9927D75FDA00E48D71 /* capi */,
+				7CD3DBAB27D75FDA00E48D71 /* ivar */,
+				7CD3DBAE27D75FDA00E48D71 /* block */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		7CD3DB9927D75FDA00E48D71 /* capi */ = {
+			isa = PBXGroup;
+			children = (
+				7CD3DB9A27D75FDA00E48D71 /* tolua++ */,
+				7CD3DBA927D75FDA00E48D71 /* kkp_capi.h */,
+				7CD3DBAA27D75FDA00E48D71 /* kkp_capi.m */,
+			);
+			path = capi;
+			sourceTree = "<group>";
+		};
+		7CD3DB9A27D75FDA00E48D71 /* tolua++ */ = {
+			isa = PBXGroup;
+			children = (
+				7CD3DBA027D75FDA00E48D71 /* bind */,
+				7CD3DB9B27D75FDA00E48D71 /* tolua_map.c */,
+				7CD3DB9F27D75FDA00E48D71 /* tolua_event.h */,
+				7CD3DB9C27D75FDA00E48D71 /* tolua_event.c */,
+				7CD3DB9D27D75FDA00E48D71 /* tolua_to.c */,
+				7CD3DB9E27D75FDA00E48D71 /* tolua_is.c */,
+				7CD3DBA827D75FDA00E48D71 /* tolua_push.c */,
+				7CD3DBA727D75FDA00E48D71 /* tolua++.h */,
+			);
+			path = "tolua++";
+			sourceTree = "<group>";
+		};
+		7CD3DBA027D75FDA00E48D71 /* bind */ = {
+			isa = PBXGroup;
+			children = (
+				7CD3DBA627D75FDA00E48D71 /* dispatch_lua.m */,
+			);
+			path = bind;
+			sourceTree = "<group>";
+		};
+		7CD3DBAB27D75FDA00E48D71 /* ivar */ = {
+			isa = PBXGroup;
+			children = (
+				7CD3DBAD27D75FDA00E48D71 /* NSObject+KKPIvarAccess.h */,
+				7CD3DBAC27D75FDA00E48D71 /* NSObject+KKPIvarAccess.m */,
+			);
+			path = ivar;
+			sourceTree = "<group>";
+		};
+		7CD3DBAE27D75FDA00E48D71 /* block */ = {
+			isa = PBXGroup;
+			children = (
+				7CD3DBAF27D75FDA00E48D71 /* KKPBlockWrapper.h */,
+				7CD3DBB127D75FDA00E48D71 /* KKPBlockWrapper.m */,
+				7CD3DBB027D75FDA00E48D71 /* KKPBlockDescription.h */,
+				7CD3DBB227D75FDA00E48D71 /* KKPBlockDescription.m */,
+			);
+			path = block;
+			sourceTree = "<group>";
+		};
+		7CD3DBB627D75FDA00E48D71 /* global-function */ = {
+			isa = PBXGroup;
+			children = (
+				7CD3DBBA27D75FDA00E48D71 /* kkp_global_config.h */,
+				7CD3DBB827D75FDA00E48D71 /* kkp_global_config.m */,
+				7CD3DBB727D75FDA00E48D71 /* kkp_global_util.h */,
+				7CD3DBB927D75FDA00E48D71 /* kkp_global_util.m */,
+			);
+			path = "global-function";
+			sourceTree = "<group>";
+		};
+		7CD3DBBC27D75FDA00E48D71 /* stdlib */ = {
+			isa = PBXGroup;
+			children = (
+				7CD3DBBD27D75FDA00E48D71 /* init.lua */,
+				7CD3DBC127D75FDA00E48D71 /* kkpClass.lua */,
+				7CD3DBC027D75FDA00E48D71 /* kkpStruct.lua */,
+				7CD3DBBE27D75FDA00E48D71 /* enums.lua */,
+				7CD3DBC227D75FDA00E48D71 /* ext.string.lua */,
+				7CD3DBBF27D75FDA00E48D71 /* ext.table.lua */,
+			);
+			path = stdlib;
+			sourceTree = "<group>";
+		};
+		7CD3DBC427D75FDA00E48D71 /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				7CD3DBC627D75FDA00E48D71 /* kkp_class.h */,
+				7CD3DBCA27D75FDA00E48D71 /* kkp_class.m */,
+				7CD3DBC527D75FDA00E48D71 /* kkp_instance.h */,
+				7CD3DBC827D75FDA00E48D71 /* kkp_instance.m */,
+				7CD3DBC927D75FDA00E48D71 /* kkp_struct.h */,
+				7CD3DBC727D75FDA00E48D71 /* kkp_struct.m */,
+			);
+			path = modules;
+			sourceTree = "<group>";
+		};
+		7CD3DBCB27D75FDA00E48D71 /* libffi */ = {
+			isa = PBXGroup;
+			children = (
+				7CD3DBCC27D75FDA00E48D71 /* include */,
+				7CD3DBDF27D75FDA00E48D71 /* libffi.a */,
+			);
+			path = libffi;
+			sourceTree = "<group>";
+		};
+		7CD3DBCC27D75FDA00E48D71 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				7CD3DBCD27D75FDA00E48D71 /* ffitarget_arm64.h */,
+				7CD3DBCE27D75FDA00E48D71 /* ffitarget.h */,
+				7CD3DBCF27D75FDA00E48D71 /* ffi_i386.h */,
+				7CD3DBD027D75FDA00E48D71 /* ffitarget_x86_64.h */,
+				7CD3DBD127D75FDA00E48D71 /* ffitarget_armv7.h */,
+				7CD3DBD227D75FDA00E48D71 /* ffi_x86_64.h */,
+				7CD3DBD327D75FDA00E48D71 /* ffitarget_i386.h */,
+				7CD3DBD427D75FDA00E48D71 /* ffi_common.h */,
+				7CD3DBD527D75FDA00E48D71 /* fficonfig.h */,
+				7CD3DBD627D75FDA00E48D71 /* fficonfig_x86_64.h */,
+				7CD3DBD727D75FDA00E48D71 /* fficonfig_i386.h */,
+				7CD3DBD827D75FDA00E48D71 /* fficonfig_armv7.h */,
+				7CD3DBD927D75FDA00E48D71 /* ffi_cfi.h */,
+				7CD3DBDA27D75FDA00E48D71 /* fficonfig_arm64.h */,
+				7CD3DBDB27D75FDA00E48D71 /* tramp.h */,
+				7CD3DBDC27D75FDA00E48D71 /* ffi_armv7.h */,
+				7CD3DBDD27D75FDA00E48D71 /* ffi.h */,
+				7CD3DBDE27D75FDA00E48D71 /* ffi_arm64.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		7CD3DBE027D75FDA00E48D71 /* build-scripts */ = {
+			isa = PBXGroup;
+			children = (
+				7CD3DBE227D75FDA00E48D71 /* compile-stdlib.sh */,
+			);
+			path = "build-scripts";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7C5BD24727D746E700322E89 /* KKPDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C5BD27727D746E800322E89 /* Build configuration list for PBXNativeTarget "KKPDemo" */;
+			buildPhases = (
+				7C5BD24427D746E700322E89 /* Sources */,
+				7C5BD24527D746E700322E89 /* Frameworks */,
+				7C5BD24627D746E700322E89 /* Resources */,
+				7CD3DB5327D75F8C00E48D71 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KKPDemo;
+			productName = KKPDemo;
+			productReference = 7C5BD24827D746E700322E89 /* KKPDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7C5BD26227D746E800322E89 /* KKPDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C5BD27A27D746E800322E89 /* Build configuration list for PBXNativeTarget "KKPDemoTests" */;
+			buildPhases = (
+				7C5BD25F27D746E800322E89 /* Sources */,
+				7C5BD26027D746E800322E89 /* Frameworks */,
+				7C5BD26127D746E800322E89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7C5BD26527D746E800322E89 /* PBXTargetDependency */,
+			);
+			name = KKPDemoTests;
+			productName = KKPDemoTests;
+			productReference = 7C5BD26327D746E800322E89 /* KKPDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7C5BD59827D7505400322E89 /* kkp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C5BD59F27D7505400322E89 /* Build configuration list for PBXNativeTarget "kkp" */;
+			buildPhases = (
+				7C5BD59527D7505400322E89 /* Sources */,
+				7C5BD59627D7505400322E89 /* Frameworks */,
+				7C5BD59727D7505400322E89 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kkp;
+			productName = kkp;
+			productReference = 7C5BD59927D7505400322E89 /* libkkp.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7C5BD24027D746E700322E89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					7C5BD24727D746E700322E89 = {
+						CreatedOnToolsVersion = 13.2.1;
+						LastSwiftMigration = 1320;
+					};
+					7C5BD26227D746E800322E89 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 7C5BD24727D746E700322E89;
+					};
+					7C5BD59827D7505400322E89 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 7C5BD24327D746E700322E89 /* Build configuration list for PBXProject "KKPDemo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7C5BD23F27D746E700322E89;
+			productRefGroup = 7C5BD24927D746E700322E89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7C5BD24727D746E700322E89 /* KKPDemo */,
+				7C5BD59827D7505400322E89 /* kkp */,
+				7C5BD26227D746E800322E89 /* KKPDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7C5BD24627D746E700322E89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C5BD25B27D746E800322E89 /* LaunchScreen.storyboard in Resources */,
+				7C5BD25827D746E800322E89 /* Assets.xcassets in Resources */,
+				7C5BD60F27D7525000322E89 /* test.lua in Resources */,
+				7C5BD25627D746E700322E89 /* Main.storyboard in Resources */,
+				7C5BD61027D7525000322E89 /* CustomTableViewController.lua in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C5BD26127D746E800322E89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7CD3DB5327D75F8C00E48D71 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "
+";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7C5BD24427D746E700322E89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CD3DB4A27D75F0D00E48D71 /* AppDelegate.m in Sources */,
+				7CD3DB4B27D75F0E00E48D71 /* SceneDelegate.m in Sources */,
+				7CD3DB4C27D75F0E00E48D71 /* ViewController.m in Sources */,
+				7CD3DB4D27D75F0E00E48D71 /* ViewController1.swift in Sources */,
+				7CD3DB4E27D75F0E00E48D71 /* BaseViewController.m in Sources */,
+				7CD3DB4F27D75F0E00E48D71 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C5BD25F27D746E800322E89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C5BD62727D753CA00322E89 /* KKPBlockConvertTest.m in Sources */,
+				7C5BD62627D753CA00322E89 /* KKPConvertTest.m in Sources */,
+				7C5BD62827D753CA00322E89 /* KKPBlockDefineTest.m in Sources */,
+				7C5BD62427D753CA00322E89 /* KKPNewInstanceTest.m in Sources */,
+				7C5BD62327D753CA00322E89 /* KKPNewClassTest.m in Sources */,
+				7C5BD62B27D753CA00322E89 /* KKPMethodTest.m in Sources */,
+				7C5BD62527D753CA00322E89 /* KKPKeyWordTest.m in Sources */,
+				7C5BD62A27D753CA00322E89 /* KKPDeviceAndOSTest.m in Sources */,
+				7C5BD26827D746E800322E89 /* KKPDemoTests.m in Sources */,
+				7C5BD62927D753CA00322E89 /* KKPXCTestCase.m in Sources */,
+				7C5BD62C27D753CA00322E89 /* KKPCFunctionTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C5BD59527D7505400322E89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CD3DC0027D75FDA00E48D71 /* lmem.c in Sources */,
+				7CD3DC1627D75FDA00E48D71 /* kkp_global_config.m in Sources */,
+				7CD3DC0927D75FDA00E48D71 /* ltm.c in Sources */,
+				7CD3DC0F27D75FDA00E48D71 /* dispatch_lua.m in Sources */,
+				7CD3DBFA27D75FDA00E48D71 /* ldump.c in Sources */,
+				7CD3DBFE27D75FDA00E48D71 /* ldblib.c in Sources */,
+				7CD3DBF327D75FDA00E48D71 /* lua.c in Sources */,
+				7CD3DBF127D75FDA00E48D71 /* lfunc.c in Sources */,
+				7CD3DBEB27D75FDA00E48D71 /* lopcodes.c in Sources */,
+				7CD3DC0827D75FDA00E48D71 /* llex.c in Sources */,
+				7CD3DBEF27D75FDA00E48D71 /* loadlib.c in Sources */,
+				7CD3DC0A27D75FDA00E48D71 /* ldo.c in Sources */,
+				7CD3DC1127D75FDA00E48D71 /* kkp_capi.m in Sources */,
+				7CD3DC1B27D75FDA00E48D71 /* kkp_class.m in Sources */,
+				7CD3DBED27D75FDA00E48D71 /* lobject.c in Sources */,
+				7CD3DBFC27D75FDA00E48D71 /* lgc.c in Sources */,
+				7CD3DC1727D75FDA00E48D71 /* kkp_global_util.m in Sources */,
+				7CD3DC0227D75FDA00E48D71 /* lcode.c in Sources */,
+				7CD3DBF527D75FDA00E48D71 /* lstring.c in Sources */,
+				7CD3DC0C27D75FDA00E48D71 /* tolua_event.c in Sources */,
+				7CD3DC0B27D75FDA00E48D71 /* tolua_map.c in Sources */,
+				7CD3DC0527D75FDA00E48D71 /* lbaselib.c in Sources */,
+				7CD3DBF027D75FDA00E48D71 /* lvm.c in Sources */,
+				7CD3DC1227D75FDA00E48D71 /* NSObject+KKPIvarAccess.m in Sources */,
+				7CD3DBF227D75FDA00E48D71 /* lstrlib.c in Sources */,
+				7CD3DC0627D75FDA00E48D71 /* ldebug.c in Sources */,
+				7CD3DBF427D75FDA00E48D71 /* linit.c in Sources */,
+				7CD3DC1427D75FDA00E48D71 /* KKPBlockDescription.m in Sources */,
+				7CD3DC0427D75FDA00E48D71 /* lapi.c in Sources */,
+				7CD3DBF927D75FDA00E48D71 /* ltable.c in Sources */,
+				7CD3DBFF27D75FDA00E48D71 /* lutf8lib.c in Sources */,
+				7CD3DC0727D75FDA00E48D71 /* lparser.c in Sources */,
+				7CD3DBEA27D75FDA00E48D71 /* liolib.c in Sources */,
+				7CD3DBF727D75FDA00E48D71 /* lctype.c in Sources */,
+				7CD3DBE827D75FDA00E48D71 /* kkp_helper.m in Sources */,
+				7CD3DC1E27D75FDA00E48D71 /* kkp_converter.m in Sources */,
+				7CD3DC0D27D75FDA00E48D71 /* tolua_to.c in Sources */,
+				7CD3DBFB27D75FDA00E48D71 /* loslib.c in Sources */,
+				7CD3DC0327D75FDA00E48D71 /* ltablib.c in Sources */,
+				7CD3DC1027D75FDA00E48D71 /* tolua_push.c in Sources */,
+				7CD3DBF827D75FDA00E48D71 /* luac.c in Sources */,
+				7CD3DBFD27D75FDA00E48D71 /* lzio.c in Sources */,
+				7CD3DBE927D75FDA00E48D71 /* lauxlib.c in Sources */,
+				7CD3DC1A27D75FDA00E48D71 /* kkp_instance.m in Sources */,
+				7CD3DC1327D75FDA00E48D71 /* KKPBlockWrapper.m in Sources */,
+				7CD3DBEE27D75FDA00E48D71 /* lmathlib.c in Sources */,
+				7CD3DC1527D75FDA00E48D71 /* kkp_runtime_helper.m in Sources */,
+				7CD3DC0E27D75FDA00E48D71 /* tolua_is.c in Sources */,
+				7CD3DC1927D75FDA00E48D71 /* kkp_struct.m in Sources */,
+				7CD3DBF627D75FDA00E48D71 /* lundump.c in Sources */,
+				7CD3DBEC27D75FDA00E48D71 /* lstate.c in Sources */,
+				7CD3DC0127D75FDA00E48D71 /* lcorolib.c in Sources */,
+				7CD3DC1827D75FDA00E48D71 /* kkp.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7C5BD26527D746E800322E89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7C5BD24727D746E700322E89 /* KKPDemo */;
+			targetProxy = 7C5BD26427D746E800322E89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7C5BD25427D746E700322E89 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C5BD25527D746E700322E89 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7C5BD25927D746E800322E89 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C5BD25A27D746E800322E89 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7C5BD27527D746E800322E89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7C5BD27627D746E800322E89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7C5BD27827D746E800322E89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KKPDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-Objc",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.karos.kkp.KKPDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "KKPDemo/KKPDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7s x86_64 i386";
+			};
+			name = Debug;
+		};
+		7C5BD27927D746E800322E89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KKPDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-Objc",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.karos.kkp.KKPDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "KKPDemo/KKPDemo-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7s";
+			};
+			name = Release;
+		};
+		7C5BD27B27D746E800322E89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-Objc",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.karos.kkp.KKPDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KKPDemo.app/KKPDemo";
+				VALID_ARCHS = "arm64 armv7s x86_64 i386";
+			};
+			name = Debug;
+		};
+		7C5BD27C27D746E800322E89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-Objc",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.karos.kkp.KKPDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KKPDemo.app/KKPDemo";
+				VALID_ARCHS = "arm64 armv7s";
+			};
+			name = Release;
+		};
+		7C5BD5A027D7505400322E89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/../kkp/libffi";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7C5BD5A127D7505400322E89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/../kkp/libffi";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7C5BD24327D746E700322E89 /* Build configuration list for PBXProject "KKPDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C5BD27527D746E800322E89 /* Debug */,
+				7C5BD27627D746E800322E89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C5BD27727D746E800322E89 /* Build configuration list for PBXNativeTarget "KKPDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C5BD27827D746E800322E89 /* Debug */,
+				7C5BD27927D746E800322E89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C5BD27A27D746E800322E89 /* Build configuration list for PBXNativeTarget "KKPDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C5BD27B27D746E800322E89 /* Debug */,
+				7C5BD27C27D746E800322E89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C5BD59F27D7505400322E89 /* Build configuration list for PBXNativeTarget "kkp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C5BD5A027D7505400322E89 /* Debug */,
+				7C5BD5A127D7505400322E89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7C5BD24027D746E700322E89 /* Project object */;
+}
