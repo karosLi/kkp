@@ -171,12 +171,12 @@ static int LUserData_kkp_instance__call(lua_State *L)
     return 0;
 }
 
-/// 实例 user data 即将被回收，所以需要重新创建新的 实例 user data
+/// 实例 user data 即将被回收时，需要清理掉 instance
 static int LUserData_kkp_instance__gc(lua_State *L)
 {
     KKPInstanceUserdata* instance = lua_touserdata(L, -1);
     if (instance && !instance->isBlock && instance->instance) {
-        kkp_instance_create_userdata(L, instance->instance);
+        instance->instance = nil;
     }
     return 0;
 }
