@@ -20,6 +20,14 @@
 #import "kkp_converter.h"
 #import "KKPBlockDescription.h"
 
+#define KKP_PROTOCOL_TYPE_CONST 'r'
+#define KKP_PROTOCOL_TYPE_IN 'n'
+#define KKP_PROTOCOL_TYPE_INOUT 'N'
+#define KKP_PROTOCOL_TYPE_OUT 'o'
+#define KKP_PROTOCOL_TYPE_BYCOPY 'O'
+#define KKP_PROTOCOL_TYPE_BYREF 'R'
+#define KKP_PROTOCOL_TYPE_ONEWAY 'V'
+
 #define KKP_BEGIN_STACK_MODIFY(L) int __startStackIndex = lua_gettop((L));
 #define KKP_END_STACK_MODIFY(L, i) while(lua_gettop((L)) > (__startStackIndex + (i))) lua_remove((L), __startStackIndex + 1);
 

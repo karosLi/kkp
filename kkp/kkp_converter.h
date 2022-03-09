@@ -14,10 +14,10 @@
 /// @param isBlock 是否构造block签名
 extern NSString *kkp_create_real_signature(NSString *signatureStr, BOOL isAllArg, BOOL isBlock);
 
-/// 根据原生结构体的类型签名转成数组 [结构体名字，真实签名]
+/// 根据原生结构体的类型签名转成简化的类型签名
 /// 比如：{CGSize=dd} 转成 CGSize=dd
 /// 比如：嵌套 {XRect={XPoint=ii}ff} 转成  XRect=iiff
-NSString * kkp_parseStructFromTypeDescription(NSString *typeDes, BOOL needStructName, NSString *replaceRightBracket);
+NSString * kkp_parseStructFromTypeDescription(NSString *typeDes, NSString *replaceRightBracket);
 
 extern void * kkp_toOCObject(lua_State *L, const char * typeDescription, int index);
 extern int kkp_toLuaObject(lua_State *L, id object);

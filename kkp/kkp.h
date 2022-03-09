@@ -53,8 +53,8 @@ extern void kkp_runLuaByteCode(NSData *data, NSString *name);
 
 #pragma mark - 类型 hook 清理
 
-/// 获取 lua error  处理器
+/// 清理所有的类
 extern void kkp_cleanAllClass(void);
 
-/// 获取 lua error  处理器
+/// 清理指定的类
 extern void kkp_cleanClass(NSString *className);

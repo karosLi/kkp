@@ -395,8 +395,8 @@
 				7CD3DB5627D75FDA00E48D71 /* kkp_helper.m */,
 				7CD3DB5827D75FDA00E48D71 /* kkp_converter.h */,
 				7CD3DBE727D75FDA00E48D71 /* kkp_converter.m */,
-				7CD3DBB527D75FDA00E48D71 /* kkp_runtime_helper.m */,
 				7CD3DB5527D75FDA00E48D71 /* kkp_runtime_helper.h */,
+				7CD3DBB527D75FDA00E48D71 /* kkp_runtime_helper.m */,
 			);
 			name = kkp;
 			path = ../kkp;

@@ -18,12 +18,6 @@
 #import "kkp_struct.h"
 #import "KKPBlockWrapper.h"
 
-#if CGFLOAT_IS_DOUBLE
-#define CGFloatValue doubleValue
-#else
-#define CGFloatValue floatValue
-#endif
-
 /// 根据类型的可读性字符串签名, 构造真实签名
 /// @param signatureStr 字符串参数类型 例'void,NSString*'
 /// @param isAllArg 是否所有类型都是参数类型，不是的话，就需要把第一个类型当做返回值类型
@@ -126,7 +120,7 @@ NSString *kkp_create_real_signature(NSString *signatureStr, BOOL isAllArg, BOOL 
         // 比如是下面几种情况，都需要进行处理，统一转换成 {XRect=iiff}
         // {XRect={XPoint=ii}ff} 或者 {XRect=iiff} 或者 {XRect={XPoint=int,int}float,float} 或者 {XRect=int,int,float,float}
         if ([outputType characterAtIndex:0] == '{') {// 说明签名里包含结构体，需要把结构体也进行解析
-            NSString *types = kkp_parseStructFromTypeDescription(outputType, YES, [outputType containsString:@"_"] ? @"_" : nil);
+            NSString *types = kkp_parseStructFromTypeDescription(outputType, [outputType containsString:@"_"] ? @"_" : nil);
             NSArray *structWithType = [types componentsSeparatedByString:@"="];
             if (structWithType.count > 1) {
                 NSString *structName = structWithType.firstObject;
@@ -164,7 +158,7 @@ NSString *kkp_create_real_signature(NSString *signatureStr, BOOL isAllArg, BOOL 
         // 比如是下面几种情况，都需要进行处理，统一转换成 {XRect=iiff}
         // {XRect={XPoint=ii}ff} 或者 {XRect=iiff} 或者 {XRect={XPoint=int,int}float,float} 或者 {XRect=int,int,float,float}
         if ([outputType characterAtIndex:0] == '{') {// 说明签名里包含结构体，需要把结构体也进行解析
-            NSString *types = kkp_parseStructFromTypeDescription(outputType, YES, [outputType containsString:@"_"] ? @"_" : nil);
+            NSString *types = kkp_parseStructFromTypeDescription(outputType, [outputType containsString:@"_"] ? @"_" : nil);
             NSArray *structWithType = [types componentsSeparatedByString:@"="];
             if (structWithType.count > 1) {
                 NSString *structName = structWithType.firstObject;
@@ -184,11 +178,11 @@ NSString *kkp_create_real_signature(NSString *signatureStr, BOOL isAllArg, BOOL 
     return funcSignature;
 }
 
-/// 根据原生结构体的类型签名转成数组 [结构体名字，真实签名]
+/// 根据原生结构体的类型签名转成简化的类型签名
 /// 比如：{CGSize=dd} 转成 CGSize=dd
 /// 比如：嵌套 {XRect={XPoint=ii}ff} 转成  XRect=iiff
 /// 比如：嵌套 {CGRect={CGPoint=dd}{CGSize=dd}} 转成 CGRect=dddd
-NSString * kkp_parseStructFromTypeDescription(NSString *typeDes, BOOL needStructName, NSString *replaceRightBracket)
+NSString * kkp_parseStructFromTypeDescription(NSString *typeDes, NSString *replaceRightBracket)
 {
     if (typeDes.length == 0) {
         return nil;
@@ -254,7 +248,7 @@ NSString * kkp_parseStructFromTypeDescription(NSString *typeDes, BOOL needStruct
 /// 把原生结构体转成 struct user data
 int kkp_createStructUserDataWithBuffer(lua_State *L, const char * typeDescription, void *buffer)
 {
-    NSString *types = kkp_parseStructFromTypeDescription([NSString stringWithUTF8String:typeDescription], YES, nil);
+    NSString *types = kkp_parseStructFromTypeDescription([NSString stringWithUTF8String:typeDescription], nil);
     NSArray *structWithType = [types componentsSeparatedByString:@"="];
     if (structWithType.count > 1) {
         NSString *structName = structWithType.firstObject;
@@ -711,7 +705,7 @@ void kkp_getStructDataOfArray(void *structData, NSArray *structArray, const char
             KKP_STRUCT_DATA_CASE('q', long long, longLongValue)
             KKP_STRUCT_DATA_CASE('Q', unsigned long long, unsignedLongLongValue)
             KKP_STRUCT_DATA_CASE('f', float, floatValue)
-            KKP_STRUCT_DATA_CASE('F', CGFloat, CGFloatValue)
+            KKP_STRUCT_DATA_CASE('F', CGFloat, doubleValue)
             KKP_STRUCT_DATA_CASE('d', double, doubleValue)
             KKP_STRUCT_DATA_CASE('B', BOOL, boolValue)
             KKP_STRUCT_DATA_CASE('N', NSInteger, integerValue)
