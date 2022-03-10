@@ -659,6 +659,7 @@
 				7C5BD59527D7505400322E89 /* Sources */,
 				7C5BD59627D7505400322E89 /* Frameworks */,
 				7C5BD59727D7505400322E89 /* CopyFiles */,
+				7CD3E07627D9A74900E48D71 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -750,7 +751,25 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "
+
 ";
+		};
+		7CD3E07627D9A74900E48D71 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# 编译字节码\ncd ../kkp/build-scripts\n./compile-stdlib.sh\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 

@@ -7,7 +7,6 @@
 //
 
 #import "KKPBlockWrapper.h"
-#import <JavaScriptCore/JavaScriptCore.h>
 #import <objc/message.h>
 #import "ffi.h"
 #import "lauxlib.h"
