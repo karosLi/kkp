@@ -50,13 +50,19 @@
     
     /// 调用实例方法
     id instance = [[newClass alloc] init];
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Warc-performSelector-leaks"
     XCTAssertEqualObjects([instance performSelector:NSSelectorFromString(@"refreshView")], @"有事");
+#pragma clang diagnostic pop
     
     /// 调用类方法
     NSDictionary *data = @{
         @"thingName": @"没事"
     };
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Warc-performSelector-leaks"
     XCTAssertEqualObjects([newClass performSelector:NSSelectorFromString(@"refreshData:") withObject:data][@"thingName"], @"有事");
+#pragma clang diagnostic pop
 }
 
 @end
