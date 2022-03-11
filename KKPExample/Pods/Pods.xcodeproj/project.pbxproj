@@ -176,41 +176,41 @@
 		01FEF032D936D90758EF9989FC1FA7D8 /* kkp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = kkp.h; path = kkp/kkp.h; sourceTree = "<group>"; };
 		043E2BF3A130E455364D516BAE73C6B3 /* lzio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = lzio.h; sourceTree = "<group>"; };
 		06CABF52A967BCB7C7B84A005AEE812F /* ffi_i386.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ffi_i386.h; sourceTree = "<group>"; };
-		0722B2ED669D735E413F7DB50DB83ABA /* ltable.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = ltable.c; sourceTree = "<group>"; };
-		07E002A73D9E105BABC3048751EABECC /* lctype.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = lctype.c; sourceTree = "<group>"; };
-		09AD92BA5856690F6283C249327F66D2 /* loadlib.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = loadlib.c; sourceTree = "<group>"; };
+		0722B2ED669D735E413F7DB50DB83ABA /* ltable.c */ = {isa = PBXFileReference; includeInIndex = 1; path = ltable.c; sourceTree = "<group>"; };
+		07E002A73D9E105BABC3048751EABECC /* lctype.c */ = {isa = PBXFileReference; includeInIndex = 1; path = lctype.c; sourceTree = "<group>"; };
+		09AD92BA5856690F6283C249327F66D2 /* loadlib.c */ = {isa = PBXFileReference; includeInIndex = 1; path = loadlib.c; sourceTree = "<group>"; };
 		0D0AEA8F34CAE43AA76247FF577BAA68 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
 		0DD4DB44AFABDB244D9511A164DC30BA /* ffitarget.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ffitarget.h; sourceTree = "<group>"; };
 		107078418A34A9ECF3E278EAFABF3F78 /* Pods-KKPExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKPExample.release.xcconfig"; sourceTree = "<group>"; };
-		1220A025ED17166A03366C98AFA7A3BE /* luac.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = luac.c; sourceTree = "<group>"; };
-		133FB1F8721B29BEF74CFDA65DD0E3AE /* linit.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = linit.c; sourceTree = "<group>"; };
-		13AF3C91F08C5BA5692312E3FE980E60 /* lundump.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = lundump.c; sourceTree = "<group>"; };
+		1220A025ED17166A03366C98AFA7A3BE /* luac.c */ = {isa = PBXFileReference; includeInIndex = 1; path = luac.c; sourceTree = "<group>"; };
+		133FB1F8721B29BEF74CFDA65DD0E3AE /* linit.c */ = {isa = PBXFileReference; includeInIndex = 1; path = linit.c; sourceTree = "<group>"; };
+		13AF3C91F08C5BA5692312E3FE980E60 /* lundump.c */ = {isa = PBXFileReference; includeInIndex = 1; path = lundump.c; sourceTree = "<group>"; };
 		149C97F628975B86FBFF68F3DC7F7871 /* KKPBlockDescription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KKPBlockDescription.h; sourceTree = "<group>"; };
 		16AEBAAA2225352CFA3BA703D5C21510 /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
 		178DA1D057640DEC3983C7DE86172BCB /* kkp_struct.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = kkp_struct.h; sourceTree = "<group>"; };
 		180CDF2E432962265550FDEE9D7A8109 /* kkp_capi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = kkp_capi.h; sourceTree = "<group>"; };
 		189698EDF6345AD43750FE0002776E8D /* lundump.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = lundump.h; sourceTree = "<group>"; };
-		18FEEE0351BC94BA1B0C03D3245DE301 /* tolua_event.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = tolua_event.c; sourceTree = "<group>"; };
+		18FEEE0351BC94BA1B0C03D3245DE301 /* tolua_event.c */ = {isa = PBXFileReference; includeInIndex = 1; path = tolua_event.c; sourceTree = "<group>"; };
 		1A2585F23F020AB63FE5A7DF8F58A1D1 /* ffitarget_i386.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ffitarget_i386.h; sourceTree = "<group>"; };
 		1AC0D6AFC59A1A993B50B4E0DF532B33 /* ldo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ldo.h; sourceTree = "<group>"; };
 		1D6BEA3EE6507F0E0060D007A36BEFB8 /* lopnames.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = lopnames.h; sourceTree = "<group>"; };
 		1ECA01EFD9A89B8D74523C94F5EDD996 /* kkp_global_config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = kkp_global_config.h; sourceTree = "<group>"; };
-		1FFED36A657123030ABB700256D73F15 /* libMasonry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMasonry.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FFED36A657123030ABB700256D73F15 /* Masonry */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = Masonry; path = libMasonry.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		21433AEC569C7544FC21716356C0B878 /* Pods-KKPExample */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-KKPExample"; path = "libPods-KKPExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		21ADE5115F531D2228645EE885616CA3 /* lapi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = lapi.h; sourceTree = "<group>"; };
 		23440CC842DD6F23962C14661A2504F1 /* lua.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = lua.h; sourceTree = "<group>"; };
-		238187BFDABDBEF0423F9C53AFBC058D /* ltm.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = ltm.c; sourceTree = "<group>"; };
+		238187BFDABDBEF0423F9C53AFBC058D /* ltm.c */ = {isa = PBXFileReference; includeInIndex = 1; path = ltm.c; sourceTree = "<group>"; };
 		23A70A773BAE658800F0B53A000638A0 /* ffi_armv7.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ffi_armv7.h; sourceTree = "<group>"; };
 		25EEE0F3E08B031DFA57F6851D8C7942 /* ltable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ltable.h; sourceTree = "<group>"; };
-		2831643E2EFE38F4AD4B79E64878C585 /* lstring.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = lstring.c; sourceTree = "<group>"; };
-		2857BA1F384C08D0C7AFFB574280E81A /* tolua_push.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = tolua_push.c; sourceTree = "<group>"; };
+		2831643E2EFE38F4AD4B79E64878C585 /* lstring.c */ = {isa = PBXFileReference; includeInIndex = 1; path = lstring.c; sourceTree = "<group>"; };
+		2857BA1F384C08D0C7AFFB574280E81A /* tolua_push.c */ = {isa = PBXFileReference; includeInIndex = 1; path = tolua_push.c; sourceTree = "<group>"; };
 		2B053A33B3F18207E6C4574278E5D7C7 /* ffitarget_arm64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ffitarget_arm64.h; sourceTree = "<group>"; };
-		2B5391E661B23AC438B9D0E5A89AF010 /* lutf8lib.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = lutf8lib.c; sourceTree = "<group>"; };
+		2B5391E661B23AC438B9D0E5A89AF010 /* lutf8lib.c */ = {isa = PBXFileReference; includeInIndex = 1; path = lutf8lib.c; sourceTree = "<group>"; };
 		2B82512E4B652E4C01AEAE772AE49739 /* ffi_x86_64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ffi_x86_64.h; sourceTree = "<group>"; };
 		2D385B477F1B5F4B09F4566C53AD330F /* Pods-KKPExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKPExample.debug.xcconfig"; sourceTree = "<group>"; };
 		2F8160CD72114EFF3597CD4BF6F7F1F7 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
 		2FD48271C59B279ABD7E971B5B56F525 /* ffi_arm64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ffi_arm64.h; sourceTree = "<group>"; };
-		30E5A37046F9E25A496DB54303911AB7 /* lmem.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = lmem.c; sourceTree = "<group>"; };
+		30E5A37046F9E25A496DB54303911AB7 /* lmem.c */ = {isa = PBXFileReference; includeInIndex = 1; path = lmem.c; sourceTree = "<group>"; };
 		365A4E031DEAD89AF5520CD5FF449119 /* ffi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ffi.h; sourceTree = "<group>"; };
 		370F325DDBF27B3EF280D0011A024B35 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		3D0ED24EDF7F0287E11666DCD758342F /* NSObject+KKPIvarAccess.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+KKPIvarAccess.h"; sourceTree = "<group>"; };
@@ -218,11 +218,11 @@
 		3E47AAFCE033A94C337C1C1CEAC36EE5 /* Pods-KKPExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KKPExample-dummy.m"; sourceTree = "<group>"; };
 		411CCCE6A707DDA02AF236A6F4DD8B74 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
 		44AEC6462659DC0098D6E58E0470E73F /* Masonry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.release.xcconfig; sourceTree = "<group>"; };
-		45562493AE0C1FB106BADC471CCBAB44 /* lopcodes.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = lopcodes.c; sourceTree = "<group>"; };
+		45562493AE0C1FB106BADC471CCBAB44 /* lopcodes.c */ = {isa = PBXFileReference; includeInIndex = 1; path = lopcodes.c; sourceTree = "<group>"; };
 		45892546416F43C43E8AA0E2AA27BC95 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
 		46FCE4D823E2684C5D932B49271ADD98 /* lstring.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = lstring.h; sourceTree = "<group>"; };
 		49AC5D4983C8BEF841BBE185811C5FB0 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
-		4B33203C272252D3D3538EE920752C93 /* lzio.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = lzio.c; sourceTree = "<group>"; };
+		4B33203C272252D3D3538EE920752C93 /* lzio.c */ = {isa = PBXFileReference; includeInIndex = 1; path = lzio.c; sourceTree = "<group>"; };
 		4B524C27FF4D19789FFB8B05F5DC3711 /* kkp_converter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = kkp_converter.m; path = kkp/kkp_converter.m; sourceTree = "<group>"; };
 		4C6ADA2DD484DAA919F59277DD64899E /* dispatch_lua.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = dispatch_lua.m; sourceTree = "<group>"; };
 		4F20DB1A29B56EA1DFBA5E2220688861 /* Pods-KKPExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KKPExample-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -231,22 +231,22 @@
 		558B2763E324B8D237D904287AE7A690 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
 		587E0B8E883D6AD4B29DA2365B8C2EFA /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
 		5947CDBB081298F4E6E20F20D233D055 /* ljumptab.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ljumptab.h; sourceTree = "<group>"; };
-		5CEE18D31C1B0F3AC2044E0E70773A57 /* llex.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = llex.c; sourceTree = "<group>"; };
-		5D421B8430C4824E38005F921C0F4EF6 /* lmathlib.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = lmathlib.c; sourceTree = "<group>"; };
+		5CEE18D31C1B0F3AC2044E0E70773A57 /* llex.c */ = {isa = PBXFileReference; includeInIndex = 1; path = llex.c; sourceTree = "<group>"; };
+		5D421B8430C4824E38005F921C0F4EF6 /* lmathlib.c */ = {isa = PBXFileReference; includeInIndex = 1; path = lmathlib.c; sourceTree = "<group>"; };
 		5DB032F0BEDBBDDF91030E59ACA7DC98 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
 		5EFED6E52B374EE53B8B532C8A65A293 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
-		5FD97DD92D1F599A02938DAF0BA5522D /* lvm.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = lvm.c; sourceTree = "<group>"; };
-		61F030A306C7B71C8C8FC55A70714969 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5FD97DD92D1F599A02938DAF0BA5522D /* lvm.c */ = {isa = PBXFileReference; includeInIndex = 1; path = lvm.c; sourceTree = "<group>"; };
+		61F030A306C7B71C8C8FC55A70714969 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		622751884AC2C370FCC0A804D385AF74 /* llex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = llex.h; sourceTree = "<group>"; };
 		64C2B405D244ABC4F0728546D75B2D86 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
-		653180CB6B8DFF9C58EFDA397CD39218 /* ldo.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = ldo.c; sourceTree = "<group>"; };
+		653180CB6B8DFF9C58EFDA397CD39218 /* ldo.c */ = {isa = PBXFileReference; includeInIndex = 1; path = ldo.c; sourceTree = "<group>"; };
 		66531FF74BF9B65109920E20CCEC7F9E /* lfunc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = lfunc.h; sourceTree = "<group>"; };
 		6B63E5EA8085B7C854686AB83C9515AA /* kkp_helper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = kkp_helper.m; path = kkp/kkp_helper.m; sourceTree = "<group>"; };
-		6B7D02AB1BA28A9873E2F471C6105F4D /* lauxlib.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = lauxlib.c; sourceTree = "<group>"; };
-		6C602637DBB6A98CDDFF66E383E9A64A /* ldump.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = ldump.c; sourceTree = "<group>"; };
+		6B7D02AB1BA28A9873E2F471C6105F4D /* lauxlib.c */ = {isa = PBXFileReference; includeInIndex = 1; path = lauxlib.c; sourceTree = "<group>"; };
+		6C602637DBB6A98CDDFF66E383E9A64A /* ldump.c */ = {isa = PBXFileReference; includeInIndex = 1; path = ldump.c; sourceTree = "<group>"; };
 		6FAFB9EE7B74F2C9B1FE8FC25A33C547 /* tolua++.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "tolua++.h"; sourceTree = "<group>"; };
 		6FBB3725D2C0052C8143BF229622340A /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
-		7099F6CCDF7850AD43BA043CBE51CC16 /* loslib.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = loslib.c; sourceTree = "<group>"; };
+		7099F6CCDF7850AD43BA043CBE51CC16 /* loslib.c */ = {isa = PBXFileReference; includeInIndex = 1; path = loslib.c; sourceTree = "<group>"; };
 		70E2978A6FA0789A323D860DA3C94F67 /* lauxlib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = lauxlib.h; sourceTree = "<group>"; };
 		72A1A97E52C283A47BA4E8F48BC313FB /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
 		72D98643BA30A79011275CBE433EF86F /* Masonry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.debug.xcconfig; sourceTree = "<group>"; };
@@ -256,10 +256,10 @@
 		77FC1E2F902CA1B98A198E6DF8FC2659 /* KKPBlockWrapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KKPBlockWrapper.m; sourceTree = "<group>"; };
 		7B26CE685B7C6F9ECA6B92E806073F58 /* kkp_class.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = kkp_class.m; sourceTree = "<group>"; };
 		7CA2574B77E0A666CD9CF1B5B04F1A40 /* fficonfig_x86_64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = fficonfig_x86_64.h; sourceTree = "<group>"; };
-		7D7A04D8257E9C4DC29DBE29A3B09116 /* lparser.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = lparser.c; sourceTree = "<group>"; };
+		7D7A04D8257E9C4DC29DBE29A3B09116 /* lparser.c */ = {isa = PBXFileReference; includeInIndex = 1; path = lparser.c; sourceTree = "<group>"; };
 		7D9C3BBA7BEEE0964B7EFCA006DDAF01 /* lgc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = lgc.h; sourceTree = "<group>"; };
 		7D9C8A503CDEE12F0747EB3D6005333D /* ffi_cfi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ffi_cfi.h; sourceTree = "<group>"; };
-		7E56D2FCCE30FD955C6CD9655DF7FA5F /* lstrlib.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = lstrlib.c; sourceTree = "<group>"; };
+		7E56D2FCCE30FD955C6CD9655DF7FA5F /* lstrlib.c */ = {isa = PBXFileReference; includeInIndex = 1; path = lstrlib.c; sourceTree = "<group>"; };
 		7EE1660D370806B3EFD74C49D3471C1C /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
 		81AEC1F20C24FBC54DC8BB47B5C6A52A /* kkp_stdlib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = kkp_stdlib.h; path = kkp/kkp_stdlib.h; sourceTree = "<group>"; };
 		83321E1381E07015CA941997D1DBF200 /* kkp */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = kkp; path = libkkp.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -271,7 +271,7 @@
 		8FFCC1446489B5A66B2B017592FDBCBC /* kkp_runtime_helper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = kkp_runtime_helper.m; path = kkp/kkp_runtime_helper.m; sourceTree = "<group>"; };
 		906925579ADF66B68F16AB901F960032 /* NSObject+KKPIvarAccess.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KKPIvarAccess.m"; sourceTree = "<group>"; };
 		91F10A7E4BAA437E4DF7B3CED9B560B4 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
-		9286F96334DDF977A64EA525223CB36F /* lstate.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = lstate.c; sourceTree = "<group>"; };
+		9286F96334DDF977A64EA525223CB36F /* lstate.c */ = {isa = PBXFileReference; includeInIndex = 1; path = lstate.c; sourceTree = "<group>"; };
 		933B4FB46BE49A7AD6891BA5E1FC7C03 /* fficonfig_i386.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = fficonfig_i386.h; sourceTree = "<group>"; };
 		935171CB319C057FAEE8F843F46825FE /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
 		95559820C3FCBDCFFB3D4E710D6F967E /* fficonfig_arm64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = fficonfig_arm64.h; sourceTree = "<group>"; };
@@ -279,26 +279,26 @@
 		976F8ABA6C9A21D63DAB45061CBCE3B1 /* kkp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = kkp.release.xcconfig; sourceTree = "<group>"; };
 		9A99B984646831BD3B6851AC19A7DBED /* kkp_converter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = kkp_converter.h; path = kkp/kkp_converter.h; sourceTree = "<group>"; };
 		9ACFC5B47743178A48795DB45FF237E3 /* ffi_common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ffi_common.h; sourceTree = "<group>"; };
-		9C3695B4111F7AB51694D472B9F1A266 /* lfunc.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = lfunc.c; sourceTree = "<group>"; };
+		9C3695B4111F7AB51694D472B9F1A266 /* lfunc.c */ = {isa = PBXFileReference; includeInIndex = 1; path = lfunc.c; sourceTree = "<group>"; };
 		9CCE9339B0A761ABD090DC62DF26EF1D /* ffitarget_x86_64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ffitarget_x86_64.h; sourceTree = "<group>"; };
-		9D701156E7309BC7A3E2258BEDD298BF /* ldebug.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = ldebug.c; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9EE96994FAD3FBB3F595DE7935544C8C /* ldblib.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = ldblib.c; sourceTree = "<group>"; };
-		A22811DAEEC1B8EF7BDD87D986C6C253 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		A2FA4577F6E14EAFC0FDBF39146F76AD /* ltablib.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = ltablib.c; sourceTree = "<group>"; };
+		9D701156E7309BC7A3E2258BEDD298BF /* ldebug.c */ = {isa = PBXFileReference; includeInIndex = 1; path = ldebug.c; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EE96994FAD3FBB3F595DE7935544C8C /* ldblib.c */ = {isa = PBXFileReference; includeInIndex = 1; path = ldblib.c; sourceTree = "<group>"; };
+		A22811DAEEC1B8EF7BDD87D986C6C253 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		A2FA4577F6E14EAFC0FDBF39146F76AD /* ltablib.c */ = {isa = PBXFileReference; includeInIndex = 1; path = ltablib.c; sourceTree = "<group>"; };
 		A301E9D7640CAAE872D2257184D64010 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
-		A325C600CE0B7EEF1D3619D98C67D56D /* kkp.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = kkp.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A502107ECEF233FFB7449D4652F5B96B /* liolib.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = liolib.c; sourceTree = "<group>"; };
+		A325C600CE0B7EEF1D3619D98C67D56D /* kkp.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = kkp.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A502107ECEF233FFB7449D4652F5B96B /* liolib.c */ = {isa = PBXFileReference; includeInIndex = 1; path = liolib.c; sourceTree = "<group>"; };
 		A542997A5D9CAFC5D721BE9C7A1B5655 /* kkp-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "kkp-prefix.pch"; sourceTree = "<group>"; };
 		A5D7C81F77CF2914BAEBFB3337161C08 /* kkp_runtime_helper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = kkp_runtime_helper.h; path = kkp/kkp_runtime_helper.h; sourceTree = "<group>"; };
 		A8C5ED611ABDF7BC658396F4271E3519 /* lmem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = lmem.h; sourceTree = "<group>"; };
 		A9244EA17B6E04FACE497603F0088190 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
 		AA01142B191C535B620A7D90F8B79380 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
-		AA07F7D828805EA75AE93C4BE234F819 /* lcode.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = lcode.c; sourceTree = "<group>"; };
+		AA07F7D828805EA75AE93C4BE234F819 /* lcode.c */ = {isa = PBXFileReference; includeInIndex = 1; path = lcode.c; sourceTree = "<group>"; };
 		AA39BB93D909447E2A8D7C0DB940802C /* kkp_instance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = kkp_instance.h; sourceTree = "<group>"; };
 		AA56AA7AF365E444271F9F4BE178D5A0 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
 		AE15954201AA218CA2750516C53B7D82 /* kkp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = kkp.debug.xcconfig; sourceTree = "<group>"; };
-		B1BF67DC836E7CFBEF6596C6FD383D43 /* lcorolib.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = lcorolib.c; sourceTree = "<group>"; };
+		B1BF67DC836E7CFBEF6596C6FD383D43 /* lcorolib.c */ = {isa = PBXFileReference; includeInIndex = 1; path = lcorolib.c; sourceTree = "<group>"; };
 		B35ACDD0CE3B1D82E8EEECDE188812C5 /* lualib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = lualib.h; sourceTree = "<group>"; };
 		BD1C7BAB1E7FAD59C7C8391805933658 /* lctype.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = lctype.h; sourceTree = "<group>"; };
 		C307723485640BA10A74D017C09781F1 /* ldebug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ldebug.h; sourceTree = "<group>"; };
@@ -307,28 +307,28 @@
 		C508C76D40739DBD2361FA57AA54FB9E /* ffitarget_armv7.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ffitarget_armv7.h; sourceTree = "<group>"; };
 		C5C44599FE7C1C51F94F910C9C3E7827 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		C6C0277B6777282C261C2938B5C6AF41 /* lprefix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = lprefix.h; sourceTree = "<group>"; };
-		C808E2C1E9D2CFE31713A5BF3A4C7ABE /* tolua_is.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = tolua_is.c; sourceTree = "<group>"; };
+		C808E2C1E9D2CFE31713A5BF3A4C7ABE /* tolua_is.c */ = {isa = PBXFileReference; includeInIndex = 1; path = tolua_is.c; sourceTree = "<group>"; };
 		C8E52D0D54D9FDA8B5EE9BC43560E445 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
-		D09B8A330DD414EED6B65C325C6FFF34 /* lua.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = lua.c; sourceTree = "<group>"; };
-		D187C2A31F5B1EFC1D1D8379D485675B /* lbaselib.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = lbaselib.c; sourceTree = "<group>"; };
+		D09B8A330DD414EED6B65C325C6FFF34 /* lua.c */ = {isa = PBXFileReference; includeInIndex = 1; path = lua.c; sourceTree = "<group>"; };
+		D187C2A31F5B1EFC1D1D8379D485675B /* lbaselib.c */ = {isa = PBXFileReference; includeInIndex = 1; path = lbaselib.c; sourceTree = "<group>"; };
 		D588EAFF83A262670C1DE9FAD9975404 /* lparser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = lparser.h; sourceTree = "<group>"; };
 		D5BA9F847C587E22F8DD9250EDEC7CDA /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
 		D822A90B358F8008C7FBDD8A7DFEB9B7 /* lopcodes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = lopcodes.h; sourceTree = "<group>"; };
 		D84398FB1E75958AECA28C39E092B6F3 /* llimits.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = llimits.h; sourceTree = "<group>"; };
 		DCF534AC2CDFE0B70F212F5557E07BA4 /* lstate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = lstate.h; sourceTree = "<group>"; };
 		DD241D10486C5CA01931BF1BA3F061B4 /* kkp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "kkp-dummy.m"; sourceTree = "<group>"; };
-		DEC49D5CE8B8D4AABD06FAE2944BAF52 /* lobject.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = lobject.c; sourceTree = "<group>"; };
+		DEC49D5CE8B8D4AABD06FAE2944BAF52 /* lobject.c */ = {isa = PBXFileReference; includeInIndex = 1; path = lobject.c; sourceTree = "<group>"; };
 		DFE8CB155C8E115A4B3EC1FE1E05FA9C /* lvm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = lvm.h; sourceTree = "<group>"; };
 		E06B9E88D41223A338FC04D2934C63E3 /* ltm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ltm.h; sourceTree = "<group>"; };
 		E6EBB3008F14704282BCB452E583DC06 /* kkp_global_util.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = kkp_global_util.m; sourceTree = "<group>"; };
 		E714BB530E0F724C58E3C5FDCCDA270E /* kkp_struct.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = kkp_struct.m; sourceTree = "<group>"; };
 		E8AD7271F8C8307AA04BBDFBA6430E0A /* kkp_define.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = kkp_define.h; path = kkp/kkp_define.h; sourceTree = "<group>"; };
-		E9FD32713EEE5C4AC94FFD4229328653 /* tolua_to.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = tolua_to.c; sourceTree = "<group>"; };
+		E9FD32713EEE5C4AC94FFD4229328653 /* tolua_to.c */ = {isa = PBXFileReference; includeInIndex = 1; path = tolua_to.c; sourceTree = "<group>"; };
 		EC586B409D5268D41C9CD13D690CDA8D /* kkp_global_config.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = kkp_global_config.m; sourceTree = "<group>"; };
-		F1269D29F7D0E6460DC496ADF1D6B89D /* lapi.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = lapi.c; sourceTree = "<group>"; };
-		F3D44B2FF180AA9A90F1087CA0364A2E /* lgc.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = lgc.c; sourceTree = "<group>"; };
+		F1269D29F7D0E6460DC496ADF1D6B89D /* lapi.c */ = {isa = PBXFileReference; includeInIndex = 1; path = lapi.c; sourceTree = "<group>"; };
+		F3D44B2FF180AA9A90F1087CA0364A2E /* lgc.c */ = {isa = PBXFileReference; includeInIndex = 1; path = lgc.c; sourceTree = "<group>"; };
 		F4B566709FAA31ED09B9B4B98D73FA47 /* kkp_global_util.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = kkp_global_util.h; sourceTree = "<group>"; };
-		F79D7687680FCF917C3B59A3B8AA04F3 /* tolua_map.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = tolua_map.c; sourceTree = "<group>"; };
+		F79D7687680FCF917C3B59A3B8AA04F3 /* tolua_map.c */ = {isa = PBXFileReference; includeInIndex = 1; path = tolua_map.c; sourceTree = "<group>"; };
 		F86EED70E9FFA2F226207B47D657E7B2 /* fficonfig_armv7.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = fficonfig_armv7.h; sourceTree = "<group>"; };
 		F92CDDA855988783E0983E7B6C472CAE /* lobject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = lobject.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -381,6 +381,7 @@
 			children = (
 				4C6ADA2DD484DAA919F59277DD64899E /* dispatch_lua.m */,
 			);
+			name = bind;
 			path = bind;
 			sourceTree = "<group>";
 		};
@@ -416,6 +417,7 @@
 				E9FD32713EEE5C4AC94FFD4229328653 /* tolua_to.c */,
 				14DB478D22CC3AEBC1E178C9560FC1F9 /* bind */,
 			);
+			name = "tolua++";
 			path = "tolua++";
 			sourceTree = "<group>";
 		};
@@ -423,7 +425,7 @@
 			isa = PBXGroup;
 			children = (
 				83321E1381E07015CA941997D1DBF200 /* kkp */,
-				1FFED36A657123030ABB700256D73F15 /* libMasonry.a */,
+				1FFED36A657123030ABB700256D73F15 /* Masonry */,
 				21433AEC569C7544FC21716356C0B878 /* Pods-KKPExample */,
 			);
 			name = Products;
@@ -461,6 +463,7 @@
 				3D0ED24EDF7F0287E11666DCD758342F /* NSObject+KKPIvarAccess.h */,
 				906925579ADF66B68F16AB901F960032 /* NSObject+KKPIvarAccess.m */,
 			);
+			name = ivar;
 			path = ivar;
 			sourceTree = "<group>";
 		};
@@ -592,6 +595,7 @@
 				9CCE9339B0A761ABD090DC62DF26EF1D /* ffitarget_x86_64.h */,
 				01E51D3431C19C96545F0B2DE4134629 /* tramp.h */,
 			);
+			name = include;
 			path = include;
 			sourceTree = "<group>";
 		};
@@ -602,6 +606,7 @@
 				76F13672A8E533122580A746287DB810 /* kkp_capi.m */,
 				36507DCD4C80FFA16848392D840ACFEF /* tolua++ */,
 			);
+			name = capi;
 			path = capi;
 			sourceTree = "<group>";
 		};
@@ -625,6 +630,7 @@
 				8C046ACF0098E217A1FE6FE3C2953E70 /* KKPBlockWrapper.h */,
 				77FC1E2F902CA1B98A198E6DF8FC2659 /* KKPBlockWrapper.m */,
 			);
+			name = block;
 			path = block;
 			sourceTree = "<group>";
 		};
@@ -715,6 +721,7 @@
 				553DA097256D24886D70E33FBA786911 /* ViewController+MASAdditions.m */,
 				4357C9F6652A94DC2CBCC1A30010EE33 /* Support Files */,
 			);
+			name = Masonry;
 			path = Masonry;
 			sourceTree = "<group>";
 		};
@@ -836,7 +843,7 @@
 			);
 			name = Masonry;
 			productName = Masonry;
-			productReference = 1FFED36A657123030ABB700256D73F15 /* libMasonry.a */;
+			productReference = 1FFED36A657123030ABB700256D73F15 /* Masonry */;
 			productType = "com.apple.product-type.library.static";
 		};
 		AC2C1EA6878E742248316398B8DF847F /* Pods-KKPExample */ = {
@@ -1069,6 +1076,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -1145,7 +1153,6 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_LDFLAGS = "";
@@ -1168,7 +1175,6 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_LDFLAGS = "";
@@ -1245,6 +1251,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
