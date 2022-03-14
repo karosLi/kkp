@@ -445,7 +445,7 @@ void * kkp_toOCObject(lua_State *L, const char * typeDescription, int index)
                 break;
             }
             case LUA_TLIGHTUSERDATA: {
-                instance = (__bridge id)lua_touserdata(L, -1);
+                instance = (__bridge id)lua_touserdata(L, index);
                 
                 /// 目前 block 指针会走这里
                 /// [block blockPtr]
