@@ -156,7 +156,7 @@ function checkInAndMakeTag() {
 	git add .
 	git commit -m "${checkInMessage}"
 	git tag ${newVersion}
-	git push origin master --tags
+	git push origin main --tags
 }
 
 ################# End git function ############################
