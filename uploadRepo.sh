@@ -164,7 +164,7 @@ function checkInAndMakeTag() {
 ################ Upload function ############################
 function upload() {
 	local podspecFile=$1
-	pod trunk push ${podspecFile} --verbose --allow-warnings
+	pod trunk push ${podspecFile} --verbose --allow-warnings --skip-import-validation
 }
 
 ################# End upload function ############################
