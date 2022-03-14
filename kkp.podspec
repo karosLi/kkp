@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "kkp"
-  s.version      = "1.0.3"
+  s.version      = "1.0.4"
   s.summary      = "lua 热修复框架"
 
   s.description  = "lua 热修复框架
