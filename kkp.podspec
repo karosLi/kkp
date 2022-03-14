@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "kkp"
-  s.version      = "1.0.5"
+  s.version      = "1.0.6"
   s.summary      = "lua 热修复框架"
 
   s.description  = "lua 热修复框架
@@ -22,6 +22,7 @@ block 创建
   s.ios.vendored_libraries = "kkp/libffi/libffi.a"
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64', 'OTHER_LDFLAGS' => ['-ObjC' , '-all_load'] }
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64', 'OTHER_LDFLAGS' => ['-ObjC' , '-all_load'] }
+  s.static_framework = true
   s.requires_arc = true
 end
 
