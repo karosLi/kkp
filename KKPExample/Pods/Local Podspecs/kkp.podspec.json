@@ -1,6 +1,6 @@
 {
   "name": "kkp",
-  "version": "1.0.0",
+  "version": "1.0.7",
   "summary": "lua 热修复框架",
   "description": "lua 热修复框架\n功能特性：\n实例方法和静态方法替换\n添加新类和定义协议\n基础数据转换\n结构体支持\nblock 创建\n常用c函数调用",
   "platforms": {
@@ -16,7 +16,7 @@
   },
   "source": {
     "git": "https://github.com/karosLi/kkp.git",
-    "tag": "1.0.0"
+    "tag": "1.0.7"
   },
   "public_header_files": "kkp/**/*.h",
   "source_files": "kkp/**/*.{h,m,c}",
@@ -37,5 +37,6 @@
       "-all_load"
     ]
   },
+  "static_framework": true,
   "requires_arc": true
 }
