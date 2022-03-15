@@ -1031,6 +1031,7 @@
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
+					"$(inherited)",
 					"-Objc",
 					"-all_load",
 				);
@@ -1069,6 +1070,7 @@
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
+					"$(inherited)",
 					"-Objc",
 					"-all_load",
 				);

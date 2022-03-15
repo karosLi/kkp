@@ -20,8 +20,8 @@ block 创建
   s.public_header_files = "kkp/**/*.h"
   s.source_files = "kkp/**/*.{h,m,c}"
   s.ios.vendored_libraries = "kkp/libffi/libffi.a"
-  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64', 'OTHER_LDFLAGS' => ['-ObjC' , '-all_load'] }
-  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64', 'OTHER_LDFLAGS' => ['-ObjC' , '-all_load'] }
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64', 'OTHER_LDFLAGS' => ['-ObjC'] }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64', 'OTHER_LDFLAGS' => ['-ObjC'] }
   s.static_framework = true
   s.requires_arc = true
 end

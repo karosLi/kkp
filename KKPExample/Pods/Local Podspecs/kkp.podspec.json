@@ -26,15 +26,13 @@
   "pod_target_xcconfig": {
     "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
     "OTHER_LDFLAGS": [
-      "-ObjC",
-      "-all_load"
+      "-ObjC"
     ]
   },
   "user_target_xcconfig": {
     "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
     "OTHER_LDFLAGS": [
-      "-ObjC",
-      "-all_load"
+      "-ObjC"
     ]
   },
   "static_framework": true,

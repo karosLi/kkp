@@ -2,6 +2,10 @@ kkp_class({"ViewController"},
 function(_ENV)
 
     function setMyView()
+        -- 设置/获取 原生 私有 变量
+        self:setIvar_withInteger_("_aInteger", 666)
+        kkp.print("【LUA】ViewController 获取 原生 私有变量 _aInteger", self:getIvarInteger_("_aInteger"))
+    
         local view = UIView:alloc():init()
         self:view():addSubview_(view)
         view:setBackgroundColor_(UIColor:greenColor())
