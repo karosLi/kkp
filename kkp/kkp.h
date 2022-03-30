@@ -43,13 +43,13 @@ extern void kkp_restart(void);
 extern lua_State *kkp_currentLuaState(void);
 
 /// 运行 lua 脚本字符串
-extern void kkp_runLuaString(NSString *script);
+extern int kkp_runLuaString(NSString *script);
 
 /// 运行 lua 脚本文件
-extern void kkp_runLuaFile(NSString *fname);
+extern int kkp_runLuaFile(NSString *fname);
 
 /// 运行 lua 脚本字节码
-extern void kkp_runLuaByteCode(NSData *data, NSString *name);
+extern int kkp_runLuaByteCode(NSData *data, NSString *name);
 
 #pragma mark - 类型 hook 清理
 

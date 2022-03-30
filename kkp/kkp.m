@@ -239,26 +239,26 @@ static void kkp_addGlobals(lua_State *L)
 
 #pragma mark - 运行 lua 脚本相关
 
-void kkp_runLuaString(NSString *script)
+int kkp_runLuaString(NSString *script)
 {
     lua_State *L = kkp_currentLuaState();
-    kkp_safeInLuaStack(L, ^int{
+    return kkp_safeInLuaStack(L, ^int{
         return kkp_dostring(L, script.UTF8String);
     });
 }
 
-void kkp_runLuaFile(NSString *fname)
+int kkp_runLuaFile(NSString *fname)
 {
     lua_State *L = kkp_currentLuaState();
-    kkp_safeInLuaStack(L, ^int{
+    return kkp_safeInLuaStack(L, ^int{
         return kkp_dofile(L, fname.UTF8String);
     });
 }
 
-void kkp_runLuaByteCode(NSData *data, NSString *name)
+int kkp_runLuaByteCode(NSData *data, NSString *name)
 {
     lua_State *L = kkp_currentLuaState();
-    kkp_safeInLuaStack(L, ^int{
+    return kkp_safeInLuaStack(L, ^int{
         return kkp_dobuffer(L, data, name.UTF8String);
     });
 }
