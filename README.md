@@ -23,3 +23,8 @@
 1. 在 Podfile 中添加  `pod 'kkp'`。
 2. 执行 `pod install` 或 `pod update`。
 3. 导入 `<kkp/kkp.h>`
+
+
+## 3.文档介绍
+
+[基础用法](https://github.com/karosLi/kkp/wiki/%E5%9F%BA%E7%A1%80%E7%94%A8%E6%B3%95)
