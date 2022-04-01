@@ -329,7 +329,7 @@ void * kkp_toOCObject(lua_State *L, const char * typeDescription, int index)
         switch (lua_type(L, index)) {
             case LUA_TNIL:
             case LUA_TNONE:
-                instance = nil;
+                *(void **)value = NULL;
                 break;
             case LUA_TBOOLEAN: {
                 BOOL flag = lua_toboolean(L, index);
