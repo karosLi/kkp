@@ -8,6 +8,16 @@
 #import <Foundation/Foundation.h>
 #import "lua.h"
 
+/// 用于寻找资源
+@interface KKPHelper : NSObject
+@end
+#define KKP_LUA_FILE_CODE(fileName)  \
+static const char *code;                \
+if (!code) {                                \
+    NSString *luaPath = [[NSBundle bundleForClass:KKPHelper.class] pathForResource:[NSString stringWithUTF8String:fileName] ofType:@".lua"]; \
+    code = [[NSString alloc] initWithData:[NSData dataWithContentsOfFile:luaPath] encoding:NSUTF8StringEncoding].UTF8String; \
+}
+
 extern bool kkp_recordLuaError(NSString *error);
 #define KKP_ERROR(L, err)                                                                               \
 NSString *_errorString = [NSString stringWithFormat:@"[KKP] error %s line %d %s: %@", __FILE__, __LINE__, __FUNCTION__, err];\

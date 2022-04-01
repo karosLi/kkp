@@ -15,6 +15,8 @@
 #import "kkp_class.h"
 #import "kkp_instance.h"
 #import "kkp_struct.h"
+#import "kkp_socket.h"
+#import "kkp_debug.h"
 #import "kkp_converter.h"
 #import "kkp_global_config.h"
 #import "kkp_global_util.h"
@@ -73,11 +75,21 @@ static int kkp_panic(lua_State *L) {
 
 #pragma mark - 启动 kkp 相关
 
-/// 配置外部库函数
-static KKPCLibFunction kkp_extensionCLibFunction;
-void kkp_setExtensionCLib(KKPCLibFunction extensionCLibFunction)
+/// 添加外部库函数
+static NSMutableArray *kkp_extensionCLibFunctions;
+void kkp_addExtensionCLib(KKPCLibFunction extensionCLibFunction)
 {
-    kkp_extensionCLibFunction = extensionCLibFunction;
+    if (!kkp_extensionCLibFunctions) {
+        kkp_extensionCLibFunctions = [NSMutableArray array];
+    }
+    [kkp_extensionCLibFunctions addObject:[NSValue valueWithPointer:extensionCLibFunction]];
+}
+
+/// 添加 debug 库
+void kkp_addExtensionDebug(void)
+{
+    kkp_addExtensionCLib(luaopen_kkp_socket);
+    kkp_addExtensionCLib(luaopen_kkp_debug);
 }
 
 /// 启动 kkp
@@ -89,8 +101,8 @@ void kkp_start(void)
     lua_State *L = kkp_currentLuaState();
     
     // 加载 c 扩展库，为了方便添加外部 c 模块
-    if (kkp_extensionCLibFunction) {
-        kkp_extensionCLibFunction(L);
+    for (NSValue *value in kkp_extensionCLibFunctions) {
+        ((KKPCLibFunction)value.pointerValue)(L);
     }
     
     // 加载 kkp lua 脚本标准库

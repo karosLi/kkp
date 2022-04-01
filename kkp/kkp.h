@@ -27,8 +27,10 @@ extern void kkp_setLuaErrorHandler(KKPLuaErrorHanlder handler);
 extern KKPLuaErrorHanlder kkp_getLuaErrorHandler(void);
 
 #pragma mark - 安装和运行
-/// 配置外部库函数
-extern void kkp_setExtensionCLib(KKPCLibFunction extensionCLibFunction);
+/// 添加外部函数库
+extern void kkp_addExtensionCLib(KKPCLibFunction extensionCLibFunction);
+/// 添加 debug 库
+extern void kkp_addExtensionDebug(void);
 
 /// 启动 kkp
 extern void kkp_start(void);

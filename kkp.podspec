@@ -18,7 +18,7 @@ block 创建
   s.author       = { "Karosli" => "karosli1314@gmail.com" }
   s.source       = { :git => "https://github.com/karosLi/kkp.git", :tag => "#{s.version}" }
   s.public_header_files = "kkp/**/*.h"
-  s.source_files = "kkp/**/*.{h,m,c}"
+  s.source_files = "kkp/**/*.{h,m,c,cpp}"
   s.ios.vendored_libraries = "kkp/libffi/libffi.a"
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64', 'OTHER_LDFLAGS' => ['-ObjC'] }
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64', 'OTHER_LDFLAGS' => ['-ObjC'] }

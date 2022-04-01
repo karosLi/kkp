@@ -1,3 +1,5 @@
+-- require("mobdebug").start("192.168.31.78")
+
 -- require("CustomTableViewController")
 
 -- 替换 swift 类

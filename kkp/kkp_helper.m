@@ -31,6 +31,9 @@
 #define KKP_BEGIN_STACK_MODIFY(L) int __startStackIndex = lua_gettop((L));
 #define KKP_END_STACK_MODIFY(L, i) while(lua_gettop((L)) > (__startStackIndex + (i))) lua_remove((L), __startStackIndex + 1);
 
+@implementation KKPHelper
+@end
+
 #pragma mark - 帮助方法
 bool kkp_recordLuaError(NSString *error)
 {
