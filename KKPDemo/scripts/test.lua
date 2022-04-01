@@ -64,6 +64,7 @@ function(_ENV)
 
     -- hook 实例方法
     function doSomeThing_(thingName)
+        self:setParams_({null = 1})
         -- 打印枚举
         kkp.print("【LUA】ViewController 打印枚举 UIImagePickerControllerCameraFlashModeOn", UIImagePickerControllerCameraFlashModeOn)
         -- 打印原生入参

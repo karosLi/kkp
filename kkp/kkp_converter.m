@@ -400,6 +400,9 @@ void * kkp_toOCObject(lua_State *L, const char * typeDescription, int index)
                             free(valueArg);
                         }
                     }
+                    
+                    // 用于创建一个空字典
+                    [instance removeObjectForKey:@"null"];
                 } else {
                     instance = [NSMutableArray array];
                     

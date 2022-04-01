@@ -20,6 +20,8 @@
 
 @property (nonatomic) int index;
 
+@property(nonatomic, strong) NSDictionary *params;
+
 @end
 
 @implementation ViewController
@@ -37,6 +39,7 @@
     
     [self doSomeThing:@"做饭"];
     NSLog(@"【原生】ViewController 年龄 %zd", self.age);
+    NSLog(@"【原生】ViewController params %@", self.params);
     
     [self blockOneArg:^int(int i) {
         return i;
