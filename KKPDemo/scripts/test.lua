@@ -1,4 +1,4 @@
--- require("mobdebug").start("192.168.31.78")
+require("mobdebug").start("192.168.31.78")
 
 -- require("CustomTableViewController")
 
