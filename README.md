@@ -14,6 +14,7 @@
 |**支持`block`**                      |支持在 `lua` 中创建 block 和 调用 block|
 |**支持结构体**                     |支持在 `lua` 注册和创建结构体|
 |**常用c函数调用**                   |支持如 `dispatch_after`，`dispatch_async` 等函数调用|
+|**调试**                   |支持 lua 脚本调试|
 
 
 ## 2. 安装
